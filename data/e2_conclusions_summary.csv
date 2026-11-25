@@ -1,0 +1,199 @@
+part;question;measure;value;interval_low;interval_high;interval_method;decision
+Section 2;reconciliation;projects in BG-RRP-1.015;2228;;;none;none
+Section 2;reconciliation;unique beneficiary schools;2227;;;none;none
+Section 2;reconciliation;projects with contract;2223;;;none;none
+Section 2;reconciliation;schools with contract;2222;;;none;none
+Section 2;reconciliation;projects without contract;5;;;none;none
+Section 2;reconciliation;contracts count;11128;;;none;none
+Section 2;reconciliation;unique contract_id;10674;;;none;none
+Section 2;reconciliation;distinct non-empty vendor_id;1754;;;none;none
+Section 2;reconciliation;distinct vendor_eik;1732;;;none;none
+Section 2;reconciliation;contracts without vendor_eik;46;;;none;none
+Section 2;reconciliation;total contracted EUR incl VAT;288593366.12;;;none;none
+Section 2;reconciliation;total contracted EUR excl VAT;240494471.77;;;none;none
+Section 2;reconciliation;national VAT co-financing EUR;48098894.35;;;none;none
+Section 2;reconciliation;total disbursed EUR incl VAT;260070052.15;;;none;none
+Section 2;reconciliation;total unpaid remainder EUR incl VAT;28523313.97;;;none;none
+Section 2;reconciliation;unpaid share of contracted value;0.098836;;;none;none
+Section 2;reconciliation;contracts with default currency;2221;;;none;none
+Section 2;reconciliation;contracts with dominant VAT assumption;5272;;;none;none
+Section 2;reconciliation;assumed VAT raw amount;161179867.82;;;none;none
+Section 2;reconciliation;share of classified projects with incl VAT;0.940356;;;none;none
+Section 3;e1_bridge;E1 reports on STEM schools;558;;;none;none
+Section 3;e1_bridge;E1 classified rows on STEM schools (violation / no violation);1816 (1195 / 621);;;none;none
+Section 3;e1_bridge;E1 documentation sections 2-4 violation share;0.755649;;;none;none
+Section 3;e1_bridge;contracts under Regime 1 (up to 31.12.2023);73;;;none;none
+Section 3;e1_bridge;contracts under Regime 2 (from 01.01.2024);11055;;;none;none
+Section 4;indicator_predated;predated: contracts;654;;;none;none
+Section 4;indicator_predated;predated: projects;380;;;none;none
+Section 4;indicator_predated;predated: schools;380;;;none;none
+Section 4;indicator_predated;predated: value EUR incl VAT;11171740.45;;;none;none
+Section 4;indicator_predated;predated: value EUR excl VAT;9309783.71;;;none;none
+Section 4;indicator_predated;predated: paid EUR incl VAT;10536305.15;;;none;none
+Section 4;indicator_predated;predated: unpaid EUR incl VAT;635435.30;;;none;none
+Section 4;indicator_predated;predated: share of contracts;0.058771;;;none;none
+Section 4;indicator_predated;predated: share of schools;0.171017;0.155933;0.187237;Wilson;True
+Section 4;indicator_split_30d;split_30d: contracts;830;;;none;none
+Section 4;indicator_split_30d;split_30d: projects;300;;;none;none
+Section 4;indicator_split_30d;split_30d: schools;300;;;none;none
+Section 4;indicator_split_30d;split_30d: 30-day clusters;314;;;none;none
+Section 4;indicator_split_30d;split_30d: value EUR incl VAT;13795099.79;;;none;none
+Section 4;indicator_split_30d;split_30d: value EUR excl VAT;11495916.49;;;none;none
+Section 4;indicator_split_30d;split_30d: paid EUR incl VAT;12786126.59;;;none;none
+Section 4;indicator_split_30d;split_30d: unpaid EUR incl VAT;1008973.21;;;none;none
+Section 4;indicator_split_30d;split_30d: share of contracts;0.074587;;;none;none
+Section 4;indicator_split_30d;split_30d: share of schools;0.135014;0.121433;0.149854;Wilson;True
+Section 4;indicator_regime_mismatch;regime_mismatch: contracts;19;;;none;none
+Section 4;indicator_regime_mismatch;regime_mismatch: projects;17;;;none;none
+Section 4;indicator_regime_mismatch;regime_mismatch: schools;17;;;none;none
+Section 4;indicator_regime_mismatch;regime_mismatch: value EUR incl VAT;457652.93;;;none;none
+Section 4;indicator_regime_mismatch;regime_mismatch: value EUR excl VAT;381377.44;;;none;none
+Section 4;indicator_regime_mismatch;regime_mismatch: paid EUR incl VAT;403706.02;;;none;none
+Section 4;indicator_regime_mismatch;regime_mismatch: unpaid EUR incl VAT;53946.90;;;none;none
+Section 4;indicator_regime_mismatch;regime_mismatch: share of contracts;0.001707;;;none;none
+Section 4;indicator_regime_mismatch;regime_mismatch: share of schools;0.007651;0.004782;0.012219;Wilson;False
+Section 4;indicator_regime_mismatch_incl_50k;regime_mismatch_incl_50k: contracts;24;;;none;none
+Section 4;indicator_regime_mismatch_incl_50k;regime_mismatch_incl_50k: projects;22;;;none;none
+Section 4;indicator_regime_mismatch_incl_50k;regime_mismatch_incl_50k: schools;22;;;none;none
+Section 4;indicator_regime_mismatch_incl_50k;regime_mismatch_incl_50k: value EUR incl VAT;636582.34;;;none;none
+Section 4;indicator_regime_mismatch_incl_50k;regime_mismatch_incl_50k: value EUR excl VAT;530485.29;;;none;none
+Section 4;indicator_regime_mismatch_incl_50k;regime_mismatch_incl_50k: paid EUR incl VAT;583268.91;;;none;none
+Section 4;indicator_regime_mismatch_incl_50k;regime_mismatch_incl_50k: unpaid EUR incl VAT;53313.44;;;none;none
+Section 4;indicator_regime_mismatch_incl_50k;regime_mismatch_incl_50k: share of contracts;0.002157;;;none;none
+Section 4;indicator_regime_mismatch_incl_50k;regime_mismatch_incl_50k: share of schools;0.009901;0.006548;0.014946;Wilson;none
+Section 4;indicator_split_30d;same_day_sub_split: contracts (subset of split_30d);638;;;none;none
+Section 4;indicator_split_30d;same_day_sub_split: schools (subset of split_30d);241;;;none;none
+Section 4;indicator_split_30d;comparative SplittingDetector 30d: contracts;1332;;;none;none
+Section 4;indicator_split_30d;comparative SplittingDetector 30d: schools;726;;;none;none
+Section 4;anomalies;anomalous dates total (pre-2023 / post-extraction);8 (3 / 5);;;none;none
+Section 4;anomalies;predated schools excluding date anomalies;379;;;none;none
+Section 4.5;level1_union;level1_union: contracts;1403;;;none;none
+Section 4.5;level1_union;level1_union: multi-indicator contracts;100;;;none;none
+Section 4.5;level1_union;level1_union: schools;638;;;none;none
+Section 4.5;level1_union;level1_union: share of contracts;0.126078;;;none;none
+Section 4.5;level1_union;level1_union: share of schools;0.287129;0.268697;0.306295;Wilson;none
+Section 4.5;level1_union;level1_union: value EUR incl VAT;23691844.42;;;none;none
+Section 4.5;level1_union;level1_union: value EUR excl VAT;19743203.68;;;none;none
+Section 4.5;level1_union;level1_union: programme value share;0.082094;;;none;none
+Section 4.5;level1_union;level1_union: paid EUR incl VAT;22194838.94;;;none;none
+Section 4.5;level1_union;level1_union: unpaid EUR incl VAT;1497005.47;;;none;none
+Section 4.5;hypothesis_H2;indicators with Wilson lower CI > 5%;2;;;none;confirmed
+Section 4.5;hypothesis_H2;indicators with Wilson lower CI > 5% (excl date anomalies);2;;;none;confirmed
+Section 5;bunching_50k;bunching_50k: observed contracts in [47k, 50k);295;;;none;none
+Section 5;bunching_50k;bunching_50k: max contract value below 50k BGN;49999.91;;;none;none
+Section 5;bunching_50k;bunching_50k: counterfactual expected contracts;184.1;;;none;none
+Section 5;bunching_50k;bunching_50k: excess contracts;110.9;;;none;none
+Section 5;bunching_50k;bunching_50k: percent excess;60.20;;;none;none
+Section 5;bunching_50k;bunching_50k: Poisson QML p-value;0.0341;;;HC1;indication
+Section 5;bunching_50k;bunching_50k: BH-FDR q-value across 14 specs;0.0615;;;BH-FDR;indication
+Section 5;bunching_50k;bunching_50k: specs significant at p<=0.05 (of 14);10;;;none;none
+Section 5;bunching_50k;bunching_50k: schools;274;;;none;none
+Section 5;bunching_50k;bunching_50k: share of schools;0.123312;0.110288;0.137637;Wilson;indication
+Section 5;bunching_50k;bunching_50k: value EUR incl VAT;8844611.07;;;none;none
+Section 6;regional;regional heterogeneity p-value (chi2 across 28 oblasts);0.00000093;;;chi2;heterogeneous
+Section 6;regional;highest Level 1 oblast name;Перник;;;none;none
+Section 6;regional;highest Level 1 oblast share (%);56.10;41.04;70.11;Wilson 95%;Перник
+Section 6;regional;lowest Level 1 oblast name;Ямбол;;;none;none
+Section 6;regional;lowest Level 1 oblast share (%);11.36;4.95;23.98;Wilson 95%;Ямбол
+Section 6;regional;Blagoevgrad rank (of 28);8;;;none;none
+Section 6;regional;Blagoevgrad schools count;120;;;none;none
+Section 6;regional;Blagoevgrad Level 1 schools count;43;;;none;none
+Section 6;regional;Blagoevgrad Level 1 schools (%);35.83;27.82;44.73;Wilson 95%;43/120
+Section 6;regional;Blagoevgrad total contracts count;535;;;none;none
+Section 6;regional;Blagoevgrad total contracted EUR incl VAT;15205734.22;;;none;none
+Section 6;regional;Blagoevgrad Level 1 contracts count;108;;;none;none
+Section 6;regional;Blagoevgrad Level 1 contracted EUR incl VAT;1634844.80;;;none;none
+Section 6;regional;Blagoevgrad Белица C1 supplier share (%);34.42;;;top_supplier;Кооперация Панда
+Section 6;regional;Blagoevgrad Банско C1 supplier share (%);22.99;;;top_supplier;СТЕМО ЕООД
+Section 6;regional;Blagoevgrad Благоевград C1 supplier share (%);26.97;;;top_supplier;АЙ ОФИС ООД
+Section 6;regional;Blagoevgrad ADFI audited schools;20;;;none;none
+Section 6;regional;Blagoevgrad ADFI reports count;22;;;none;none
+Section 6;regional;Blagoevgrad ADFI audited with Level 1;8;;;none;none
+Section 6.3;institutional;Other (<30) grouped schools;53;;;none;none
+Section 6.3;institutional;Other (<30) Level 1 share (%);33.96;;;none;none
+Section 6.3;institutional;Primary (НУ, 1-4) Level 1 share (%);32.48;;;Wilson 95%;"[24.67%; 41.40%]"
+Section 6.3;institutional;Basic (ОУ, 1-7) Level 1 share (%);32.42;;;Wilson 95%;"[29.67%; 35.30%]"
+Section 6.3;institutional;United (ОбУ, 1-10) Level 1 share (%);31.51;;;Wilson 95%;"[22.00%; 42.86%]"
+Section 6.3;institutional;Secondary (СУ, 1-12) Level 1 share (%);24.44;;;Wilson 95%;"[20.68%; 28.63%]"
+Section 6.3;institutional;Vocational High School (ПрофГ) Level 1 share (%);24.41;;;Wilson 95%;"[20.15%; 29.25%]"
+Section 6.3;institutional;Profiled High School (ПГ) Level 1 share (%);18.28;;;Wilson 95%;"[11.74%; 27.34%]"
+Section 6.3;institutional;Centre for Special Educational Support (ЦСОП) Level 1 share (%);16.67;;;Wilson 95%;"[8.32%; 30.60%]"
+Section 6.3;institutional;Municipal Level 1 share (%);29.61;;;Wilson 95%;"[27.61%; 31.68%]"
+Section 6.3;institutional;State Level 1 share (%);22.76;;;Wilson 95%;"[18.31%; 27.92%]"
+Section 6.3;institutional;Municipal vs State chi2 p-value (country);0.0162;;;10000 permutations;
+Section 6.3;institutional;Municipal vs State chi2 p-value (within region);0.0195;;;10000 permutations within oblast;
+Section 6.3;institutional;School type chi2 p-value (country);0.0010;;;10000 permutations;
+Section 6.3;institutional;School type chi2 p-value (within region);0.0010;;;10000 permutations within oblast;
+Section 6.3;steering_level1;LOO multi-school sample size;2119;;;none;none
+Section 6.3;steering_level1;Municipal schools in LOO sample;1829;;;none;none
+Section 6.3;steering_level1;State schools in LOO sample;290;;;none;none
+Section 6.3;steering_level1;Municipal mean LOO alignment s_i;0.2103;;;none;none
+Section 6.3;steering_level1;State mean LOO alignment s_i;0.1207;;;none;none
+Section 6.3;steering_level1;Municipal - State alignment gap;0.0896;;;10,000 perm oblast x size;p=0.0001
+Section 6.3;steering_level1;Municipal alignment p-value (oblast x size);0.0001;;;none;none
+Section 6.3;steering_level1;Municipal LOO >= 50% Level 1 rate (%);27.73;;;vs <50%;30.38%
+Section 7;adfi_validation;ADFI reports matched to STEM;558;;;none;none
+Section 7;adfi_validation;ADFI audited STEM schools (meta);499;;;none;none
+Section 7;adfi_validation;ADFI classified STEM schools (E1);459;;;none;none
+Section 7;adfi_validation;ADFI violation-with-act schools;381;;;none;none
+Section 7;adfi_validation;ADFI act base rate (%);83.01;;;max_lift;1.205
+Section 7;adfi_validation;ADFI base-rate ceiling lift;1.205;;;none;none
+Section 7;adfi_validation;Level 1 flagged audited STEM schools;180;;;none;none
+Section 7;adfi_validation;Level 1 flagged unaudited STEM schools;458;;;none;none
+Section 7;adfi_validation;Level 1 audited schools with a violation in the classes of the act;11;;;none;none
+Section 7;adfi_validation;Level 1 audited schools with only no violation in the classes of the act;6;;;none;none
+Section 7;adfi_validation;Level 1 audited schools with no finding in the classes of the act;163;;;none;none
+Section 7;adfi_validation;Level 1 ADFI act lift;1.0398;;;hypergeom;"p=0.0953; p_perm=0.0924"
+Section 7;adfi_validation;Level 1 ADFI selection OR;1.558;;;Fisher exact;p=0.0001
+Section 7;adfi_validation;Predated ADFI act lift;1.0812;;;hypergeom;"p=0.0149; p_perm=0.0157"
+Section 7;adfi_validation;Predated ADFI selection OR;1.895;;;Fisher exact;p=0.0000
+Section 7;adfi_validation;Level C named STEM schools;37;;;none;none
+Section 7;adfi_validation;Level C pairs in named schools;102;;;none;none
+Section 7;adfi_validation;Level C cited with violation pairs;36;;;none;none
+Section 7;adfi_validation;Level C Level 1 violation lift;1.526;;;Logit cluster OR;"2.20 (p_hyp=0.1187; p_perm=0.1973; p_logit=0.4146)"
+Section 8;concentration;unique supplier vendor_id count;1754;;;none;none
+Section 8;concentration;unique supplier EIK count;1732;;;none;none
+Section 8;concentration;Top-1 supplier name;Кооперация Панда;;;none;none
+Section 8;concentration;Top-1 supplier value share C1 (%);14.61;;;entity;Кооперация Панда
+Section 8;concentration;Top-5 suppliers value share C5 (%);33.60;;;none;none
+Section 8;concentration;Top-10 suppliers value share C10 (%);44.74;;;none;none
+Section 8;concentration;Supplier value HHI;358.6;;;none;none
+Section 8;concentration_top2;Кооперация Панда (000885099) value EUR incl VAT / excl VAT;42165216.46;;;excl VAT;35137680.38
+Section 8;concentration_top2;Кооперация Панда (000885099) paid / unpaid EUR incl VAT;39077058.93;;;unpaid;3088157.53
+Section 8;concentration_top2;Кооперация Панда (000885099) contracts / schools / subcontractors;1254 / 581 / 0;;;none;none
+Section 8;concentration_top2;Кооперация Панда (000885099) contracts below threshold / predated / split_30d;758 / 4 / 68;;;none;none
+Section 8;concentration_top2;,,А1 България“ ЕАД (131468980) value EUR incl VAT / excl VAT;19129057.25;;;excl VAT;15940881.04
+Section 8;concentration_top2;,,А1 България“ ЕАД (131468980) paid / unpaid EUR incl VAT;17650923.02;;;unpaid;1478134.23
+Section 8;concentration_top2;,,А1 България“ ЕАД (131468980) contracts / schools / subcontractors;751 / 298 / 0;;;none;none
+Section 8;concentration_top2;,,А1 България“ ЕАД (131468980) contracts below threshold / predated / split_30d;556 / 368 / 119;;;none;none
+Section 8;steering_levels_2_3;Top-2 leaders combined contracts;2005;;;none;none
+Section 8;steering_levels_2_3;Top-2 leaders combined value EUR incl VAT;61294273.71;;;none;none
+Section 8;steering_levels_2_3;Top-2 leaders combined value share (%);21.24;;;none;none
+Section 8;steering_levels_2_3;Second-largest supplier Level 1 contracts;410;;;none;none
+Section 8;steering_levels_2_3;BiCM valid links (q<=0.01);80;;;none;none
+Section 8;steering_levels_2_3;Backbone nodes;90;;;none;none
+Section 8;steering_levels_2_3;Louvain supplier groups (size>=3);9;;;none;none
+Section 8;steering_levels_2_3;10,000 networks unique count;10000;;;swap MC;burn=43374, thin=7229
+Section 8;steering_levels_2_3;Oblast excess vendor-oblast cells;184;;;none;none
+Section 8;steering_levels_2_3;Oblast excess school links count;1693;;;none;none
+Section 8;steering_levels_2_3;Country top-2 suppliers observed shared schools;46;;;BiCM exp;"91.86; p(MC <= obs)=0.0001"
+Section 8;steering_levels_2_3;Country top-2 suppliers 10k MC expected mean;74.67;61.10;88.25;10,000 networks;p=1.0000
+Section 8;steering_levels_2_3;Highest group Level 1 rate (%);23.33;;;group;G04
+Section 8;steering_levels_2_3;Lowest group Level 1 rate (%);0.00;;;group;G07
+Section 8;steering_groups;G01 Level 1 rate (%) vs out of groups;7.85;;;Fisher exact vs out of groups;"p=0.0000; Ordinary"
+Section 8;steering_groups;G02 Level 1 rate (%) vs out of groups;18.18;;;Fisher exact vs out of groups;"p=0.3732; Robust"
+Section 8;steering_groups;G03 Level 1 rate (%) vs out of groups;15.29;;;Fisher exact vs out of groups;"p=0.6313; Ordinary"
+Section 8;steering_groups;G04 Level 1 rate (%) vs out of groups;23.33;;;Fisher exact vs out of groups;"p=0.1131; Suspicious"
+Section 8;steering_groups;G05 Level 1 rate (%) vs out of groups;6.95;;;Fisher exact vs out of groups;"p=0.0001; Robust"
+Section 8;steering_groups;G06 Level 1 rate (%) vs out of groups;0.00;;;Fisher exact vs out of groups;"p=0.0000; Ordinary"
+Section 8;steering_groups;G07 Level 1 rate (%) vs out of groups;0.00;;;Fisher exact vs out of groups;"p=0.0000; Robust"
+Section 8;steering_groups;G08 Level 1 rate (%) vs out of groups;9.68;;;Fisher exact vs out of groups;"p=0.4591; Suspicious"
+Section 8;steering_groups;G09 Level 1 rate (%) vs out of groups;22.64;;;Fisher exact vs out of groups;"p=0.0097; Ordinary"
+Section 8;steering_groups;Out of groups Level 1 rate (%);13.47;;;none;none
+Section 3;e1_reliability;E1 STEM violation rows;1195;;;none;none
+Section 3;e1_reliability;E1 STEM violation rows with class in ADFI own words;1130;;;none;none
+Section 3;e1_reliability;E1 STEM violation share with class in ADFI own words;0.9456;;;none;none
+Section 3;e1_reliability;E1 STEM violation rows in classes of the three acts;61;;;none;"1.01; 1.02; 10.01; 10.02; 7.03"
+Section 3;e1_reliability;E1 STEM violation rows in classes of the three acts with class in ADFI own words;50;;;none;none
+Section 3;e1_reliability;E1 STEM violation rows in class of regime_mismatch;10;;;none;1.02
+Section 3;e1_reliability;E1 STEM violation rows in class of regime_mismatch with class in ADFI own words;0;;;none;none

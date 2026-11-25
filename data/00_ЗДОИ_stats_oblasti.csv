@@ -1,0 +1,12 @@
+﻿oblast,oblast_code,izyskani_poimenno,poimenno_predostavili,poimenno_otkaz,poimenno_udalzhavane_bez_danni,poimenno_utochnenie_bez_danni,poimenno_bez_otgovor,poimenno_bez_stem,dyal_poimenno_predostavili_pct,dobrovolni_s_korespondenciya,dobrovolni_predostavili,dobrovolni_otkaz_bez_danni,obshto_predostavili,uchilishta_v_baza_06,n_dogovori,stoynost_dogovori_bez_dds_eur,n_kontrolni_deystviya,n_plashtaniya,n_byudzheti_zdoi,uchilishta_s_byudzhet_zdoi,uchilishta_s_dogovori,uchilishta_s_vatreshni_pravila
+Област Благоевград,БЛ,12,0,0,0,0,12,0,0.00,0,0,0,0,0,0,0.00,0,0,0,0,0,0
+Област Варна,ВН,12,12,0,0,0,0,0,100.00,86,80,6,92,92,401,8971891.44,850,2620,26,11,81,0
+Област Враца,ВР,12,12,0,0,0,0,0,100.00,0,0,0,12,12,42,1396890.06,84,275,5,2,12,0
+Област Кърджали,КЖ,12,11,0,0,0,1,0,91.67,32,25,7,36,36,133,2628602.22,174,706,18,5,29,0
+Област Монтана,МН,12,8,3,0,0,1,0,66.67,0,0,0,8,8,21,644108.31,33,207,0,0,7,0
+Област Плевен,ПЛ,12,9,0,0,0,2,1,75.00,0,0,0,9,9,39,734062.99,61,213,1,1,5,0
+Област Пловдив,ПД,12,9,1,0,0,2,0,75.00,1,1,0,10,10,26,517529.65,75,248,0,0,5,0
+Област Русе,РС,12,11,0,0,0,1,0,91.67,43,43,0,54,54,311,4702025.79,583,1570,29,12,52,0
+Област Смолян,СМ,12,10,1,0,0,1,0,83.33,37,37,0,47,47,162,3062840.63,319,768,6,5,40,0
+Област София-област,СО,12,11,0,0,0,1,0,91.67,49,43,6,54,54,260,5404185.92,313,1022,12,6,47,0
+Общо,ВСИЧКИ,120,93,5,0,0,21,1,77.50,248,229,19,322,322,1395,28062137.01,2492,7629,97,42,278,0
