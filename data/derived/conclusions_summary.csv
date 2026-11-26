@@ -1,0 +1,760 @@
+part;question;measure;value;interval_low;interval_high;interval_method;decision
+Section 1;invariants;schools in the corpus;322;;;none;none
+Section 1;invariants;contracts in the corpus;1395;;;none;none
+Section 1;invariants;contracts with numeric amount_excl_vat;1233;;;none;none
+Section 1;invariants;contracts with missing amount_excl_vat;162;;;none;none
+Section 1;invariants;total contracted EUR excl VAT;28062137.01;;;none;none
+Section 1;invariants;control actions total;2492;;;none;none
+Section 1;invariants;unlinked art_237b actions;12;;;none;none
+Section 1;invariants;unlinked pre_commitment actions;853;;;none;none
+Section 1;invariants;unlinked pre_expenditure actions;691;;;none;none
+Section 1;invariants;ISUN-linked contracts;1167;;;none;none
+Section 2;coverage;schools provided on named request;93/120;0.692431;0.840508;Wilson;none
+Section 2;coverage;schools provided voluntarily;229;;;none;none
+Section 2;coverage;schools in the corpus;322;;;none;none
+Section 2;coverage;schools with contract;278;;;none;none
+Section 2;coverage;schools with STEM project contract;276;;;none;none
+Section 2;coverage;schools without contract;44;;;none;none
+Section 2;coverage;national schools with contract;2222;;;none;none
+Section 2;coverage;national contracted EUR excl VAT;240494471.77;;;none;none
+Section 2;coverage;share of national schools with contract;0.125113;;;none;none
+Section 2;coverage;share of national contracted EUR excl VAT, all contracts;0.116685;;;none;none
+Section 2;coverage;share of national contracted EUR excl VAT, ISUN-linked contracts;0.096190;;;none;none
+Section 3;H3_pre_commitment;Main: Missing = no control | All contracts (N=1,395) | share;0.869534;0.850840/0.837739;0.886199/0.898701;Wilson/ClusterBootstrap;True
+Section 3;H3_pre_commitment;Main: Missing = no control | All contracts (N=1,395) | EUR excl VAT;24831164.29;;;none;none
+Section 3;H3_pre_commitment;Main: Missing = no control | STEM contracts (N=1,226) | share;0.856444;0.835702/0.821283;0.874959/0.888982;Wilson/ClusterBootstrap;True
+Section 3;H3_pre_commitment;Main: Missing = no control | STEM contracts (N=1,226) | EUR excl VAT;22772685.46;;;none;none
+Section 3;H3_pre_commitment;S1: Documented contracts only | All contracts (N=1,395) | share;0.374570;0.320933/0.290218;0.431476/0.464540;Wilson/ClusterBootstrap;True
+Section 3;H3_pre_commitment;S1: Documented contracts only | All contracts (N=1,395) | EUR excl VAT;2667854.19;;;none;none
+Section 3;H3_pre_commitment;S1: Documented contracts only | STEM contracts (N=1,226) | share;0.375887;0.321380/0.291923;0.433729/0.465517;Wilson/ClusterBootstrap;True
+Section 3;H3_pre_commitment;S1: Documented contracts only | STEM contracts (N=1,226) | EUR excl VAT;2654867.89;;;none;none
+Section 3;H3_pre_commitment;S2: Missing = timely | All contracts (N=1,395) | share;0.078136;0.065183/0.058446;0.093407/0.099938;Wilson/ClusterBootstrap;True
+Section 3;H3_pre_commitment;S2: Missing = timely | All contracts (N=1,395) | EUR excl VAT;2667854.19;;;none;none
+Section 3;H3_pre_commitment;S2: Missing = timely | STEM contracts (N=1,226) | share;0.086460;0.071992/0.064704;0.103512/0.110573;Wilson/ClusterBootstrap;True
+Section 3;H3_pre_commitment;S2: Missing = timely | STEM contracts (N=1,226) | EUR excl VAT;2654867.89;;;none;none
+Section 3;H3_pre_commitment;S3: Dated checklists only | All contracts (N=1,395) | share;0.662162;0.582718/0.553333;0.733401/0.764706;Wilson/ClusterBootstrap;True
+Section 3;H3_pre_commitment;S3: Dated checklists only | All contracts (N=1,395) | EUR excl VAT;2434301.81;;;none;none
+Section 3;H3_pre_commitment;S3: Dated checklists only | STEM contracts (N=1,226) | share;0.662069;0.581782/0.548148;0.733990/0.765826;Wilson/ClusterBootstrap;True
+Section 3;H3_pre_commitment;S3: Dated checklists only | STEM contracts (N=1,226) | EUR excl VAT;2434097.29;;;none;none
+Section 3;H3_pre_commitment;S4: Raw date missing != ex-ante | All contracts (N=1,395) | share;0.967025;0.956297/0.953868;0.975188/0.978621;Wilson/ClusterBootstrap;True
+Section 3;H3_pre_commitment;S4: Raw date missing != ex-ante | All contracts (N=1,395) | EUR excl VAT;26966756.59;;;none;none
+Section 3;H3_pre_commitment;S4: Raw date missing != ex-ante | STEM contracts (N=1,226) | share;0.963295;0.951240/0.947942;0.972456/0.976879;Wilson/ClusterBootstrap;True
+Section 3;H3_pre_commitment;S4: Raw date missing != ex-ante | STEM contracts (N=1,226) | EUR excl VAT;24827583.37;;;none;none
+Section 3;H3_pre_commitment;S4 check: Undated label only | All contracts (N=1,395) | share;0.964158;0.953058/0.949929;0.972708/0.976497;Wilson/ClusterBootstrap;True
+Section 3;H3_pre_commitment;S4 check: Undated label only | All contracts (N=1,395) | EUR excl VAT;26885215.33;;;none;none
+Section 3;H3_pre_commitment;S4 check: Undated label only | STEM contracts (N=1,226) | share;0.960033;0.947554/0.943336;0.969637/0.974603;Wilson/ClusterBootstrap;True
+Section 3;H3_pre_commitment;S4 check: Undated label only | STEM contracts (N=1,226) | EUR excl VAT;24746042.11;;;none;none
+Section 3;H3_pre_commitment;S5: First action (earliest date, tie row) | All contracts (N=1,395) | share;0.853763;0.834250/0.821588;0.871334/0.883503;Wilson/ClusterBootstrap;True
+Section 3;H3_pre_commitment;S5: First action (earliest date, tie row) | All contracts (N=1,395) | EUR excl VAT;24171776.08;;;none;none
+Section 3;H3_pre_commitment;S5: First action (earliest date, tie row) | STEM contracts (N=1,226) | share;0.838499;0.816848/0.802662;0.858036/0.871837;Wilson/ClusterBootstrap;True
+Section 3;H3_pre_commitment;S5: First action (earliest date, tie row) | STEM contracts (N=1,226) | EUR excl VAT;22113297.25;;;none;none
+Section 3;H3_pre_commitment;S5 check: First action (file order only) | All contracts (N=1,395) | share;0.859498;0.840274/0.828003;0.876748/0.888806;Wilson/ClusterBootstrap;True
+Section 3;H3_pre_commitment;S5 check: First action (file order only) | All contracts (N=1,395) | EUR excl VAT;24405784.21;;;none;none
+Section 3;H3_pre_commitment;S5 check: First action (file order only) | STEM contracts (N=1,226) | share;0.845024;0.823693/0.809522;0.864200/0.877733;Wilson/ClusterBootstrap;True
+Section 3;H3_pre_commitment;S5 check: First action (file order only) | STEM contracts (N=1,226) | EUR excl VAT;22347305.38;;;none;none
+Section 4;formality_and_roles;Formal checklists, control actions with assessed formality | share;0.623958;0.592880/0.552574;0.654048/0.698365;Wilson/ClusterBootstrap;none
+Section 4;formality_and_roles;Formal checklists, contracts by last linked checklist before commitment | share;0.463918;0.407463/0.380328;0.521313/0.549824;Wilson/ClusterBootstrap;none
+Section 4;formality_and_roles;Formal checklists, contracts by last linked checklist before expenditure | share;0.751825;0.697433/0.679842;0.799253/0.817877;Wilson/ClusterBootstrap;none
+Section 4;formality_and_roles;Role conflict, control actions with confirmed role status | share;0.025932;0.016024/0.012433;0.041706/0.042654;Wilson/ClusterBootstrap;none
+Section 4;formality;ext_formal_checklist ДА / НЕ / missing;599 / 361 / 1532;;;none;none
+Section 4;formality;batch checklists (contracts_per_checklist_count > 1);41;;;none;none
+Section 4;formality;batch checklists with a count above the corpus contracts;5;;;none;none
+Section 4;formality;controller_opinion одобрено / с_резерви / отказ / отказ_от_мнение / missing;1888 / 314 / 12 / 3 / 275;;;none;none
+Section 4;formality;contracts by last linked checklist | чл_237б_ЗОП | ext_formal_checklist=НЕ | EUR excl VAT;62086.36;;;none;none
+Section 4;formality;contracts by last linked checklist | преди_поемане | ext_formal_checklist=ДА | EUR excl VAT;3335052.07;;;none;none
+Section 4;formality;contracts by last linked checklist | преди_поемане | ext_formal_checklist=НЕ | EUR excl VAT;2563774.84;;;none;none
+Section 4;formality;contracts by last linked checklist | преди_разход | ext_formal_checklist=ДА | EUR excl VAT;4735318.06;;;none;none
+Section 4;formality;contracts by last linked checklist | преди_разход | ext_formal_checklist=НЕ | EUR excl VAT;1221972.17;;;none;none
+Section 4;formality;timely checklist before commitment that is not formal | contracts;136;;;none;none
+Section 4;formality;timely checklist before commitment that is not formal | EUR excl VAT;2087933.76;;;none;none
+Section 4;role_separation;controller_equals_contracting_authority ДА / НЕ / непотвърден / missing;16 / 601 / 1870 / 5;;;none;none
+Section 4;role_separation;role conflict | linked contracts | EUR excl VAT;3 | 90640.22;;;none;none
+Section 5;internal_rules_10_03;class_10_03=ДА | All schools | share;0.223602;0.181504;0.272218;Wilson;none
+Section 5;internal_rules_10_03;class_10_03=ДА | Schools with control actions | share;0.265683;0.216636;0.321279;Wilson;none
+Section 5;internal_rules_10_03;class_10_03=ДА | Schools with contracts | share;0.244604;0.197781;0.298390;Wilson;none
+Section 5;internal_rules_10_03;Rules documented (class_10_03=НЕ) | schools / contracts / EUR excl VAT;199 / 923 / 18056007.03;;;none;none
+Section 5;internal_rules_10_03;Rules stated absent (class_10_03=ДА) | schools / contracts / EUR excl VAT;3 / 13 / 145923.42;;;none;none
+Section 5;internal_rules_10_03;No document on rules (class_10_03=ДА) | schools / contracts / EUR excl VAT;69 / 316 / 6602935.56;;;none;none
+Section 5;internal_rules_10_03;No control actions (class_10_03=няма_документ) | schools / contracts / EUR excl VAT;51 / 143 / 3257271.00;;;none;none
+Section 5;internal_rules_10_03;class_10_03=ДА | contracts / EUR excl VAT;329 / 6748858.98;;;none;none
+Section 5;internal_rules_10_03;class_10_03=ДА or no control actions | EUR excl VAT;10006129.98;;;none;none
+Section 6;art_237b_10_04;applicable schools / contracts / EUR excl VAT;122 / 233 / 11081028.52;;;none;none
+Section 6;art_237b_10_04;class_10_04=ДА | contracts / schools / EUR excl VAT;232 / 121 / 11033935.84;;;none;none
+Section 6;art_237b_10_04;class_10_04=НЕ | contracts / schools / EUR excl VAT;979 / 252 / 16593475.56;;;none;none
+Section 6;art_237b_10_04;class_10_04=неприложимо | contracts / schools / EUR excl VAT;47 / 26 / 434725.61;;;none;none
+Section 6;art_237b_10_04;class_10_04=няма_документ | contracts / schools / EUR excl VAT;137 / 62 / 0.00;;;none;none
+Section 6;art_237b_10_04;Indicator 2 | schools without Art. 237b control | share;0.991803;0.955029/0.975410;0.998552/1.000000;Wilson/SchoolClusterBootstrap;none
+Section 6;art_237b_10_04;Indicator 2 | contracts / EUR excl VAT without Art. 237b control;232 / 11033935.84;;;none;none
+Section 6;art_237b_10_04;Indicator 2 and Indicator 1 both missing | contracts / EUR excl VAT;206 / 10119683.21;;;none;none
+Section 6;art_237b_10_04;budget source: Documented budget | schools / applicable contracts / without control / EUR excl VAT;38 / 80 / 80 / 3455250.99;;;none;none
+Section 6;art_237b_10_04;budget source: Standard cost x pupils | schools / applicable contracts / without control / EUR excl VAT;52 / 93 / 92 / 3474037.77;;;none;none
+Section 6;art_237b_10_04;budget source: Nearest available year | schools / applicable contracts / without control / EUR excl VAT;33 / 54 / 54 / 3809858.96;;;none;none
+Section 6;art_237b_10_04;budget source: Budget to be verified | schools / applicable contracts / without control / EUR excl VAT;6 / 6 / 6 / 341880.80;;;none;none
+Section 6;art_237b_10_04;budget source: All applicable contracts | schools / applicable contracts / without control / EUR excl VAT;122 / 233 / 232 / 11081028.52;;;none;none
+Section 6;art_237b_10_04;Indicator 2 | documented budget only | share;1.000000;0.908190;1.000000;Wilson;none
+Section 6;art_237b_10_04;Indicator 2 | any Art. 237b report counted as control | share;0.942623;0.886291;0.971932;Wilson;none
+Section 6;art_237b_10_04;Art. 237b reports | actions / linked / schools / checklists;18 / 6 / 13 / 0;;;none;none
+Section 7;cpv_accumulation_1_01_1_02;Possible splitting | All assessed contracts | share;0.071081;0.056912/0.053403;0.088447/0.089447;Wilson/SchoolClusterBootstrap;none
+Section 7;cpv_accumulation_1_01_1_02;Possible splitting | Assessed direct awards under Art. 20(4) | share;0.177184;0.143347/0.136816;0.216986/0.219458;Wilson/SchoolClusterBootstrap;none
+Section 7;cpv_accumulation_1_01_1_02;Direct award at or above the threshold | All assessed contracts | share;0.008763;0.004617/0.003027;0.016571/0.015329;Wilson/SchoolClusterBootstrap;none
+Section 7;cpv_accumulation_1_01_1_02;Direct award at or above the threshold | Assessed direct awards under Art. 20(4) | share;0.021845;0.011534/0.007500;0.040989/0.038741;Wilson/SchoolClusterBootstrap;none
+Section 7;cpv_accumulation_1_01_1_02;Possible splitting | contracts / schools / EUR excl VAT;73 / 52 / 997248.14;;;none;none
+Section 7;cpv_accumulation_1_01_1_02;Direct award at or above the threshold | contracts / schools / EUR excl VAT;9 / 8 / 537559.86;;;none;none
+Section 7;cpv_accumulation_1_01_1_02;Direct award within limits | contracts / schools / EUR excl VAT;330 / 180 / 3601365.40;;;none;none
+Section 7;cpv_accumulation_1_01_1_02;Other procedure | contracts / schools / EUR excl VAT;615 / 236 / 19663385.87;;;none;none
+Section 7;cpv_accumulation_1_01_1_02;Cannot be assessed | contracts / schools / EUR excl VAT;368 / 157 / 3262577.74;;;none;none
+Section 7;cpv_accumulation_1_01_1_02;Possible splitting | school-group pairs / largest 12-month total EUR excl VAT;57 / 4949738.80;;;none;none
+Section 7;cpv_accumulation_1_01_1_02;Possible splitting | median ratio of 12-month total to threshold;1.7298;;;none;none
+Section 7;cpv_accumulation_1_01_1_02;Direct award at or above the threshold with works document and non-works subject group | contracts / EUR excl VAT;2 / 80886.38;;;none;none
+Section 7;cpv_accumulation_1_01_1_02;Possible splitting or direct award at or above the threshold | contracts / schools / EUR excl VAT;82 / 57 / 1534808.00;;;none;none
+Section 7;cpv_accumulation_1_01_1_02;Annex No. 2 services by CPV code | contracts / cannot be assessed / marked;20 / 18 / 0;;;none;none
+Section 7;cpv_accumulation_1_01_1_02;Invitation to a single supplier | contracts / schools / EUR excl VAT;4 / 3 / 177029.11;;;none;none
+Section 7;cpv_accumulation_1_01_1_02;CPV division vs procurement type | contracts / schools / EUR excl VAT;36 / 32 / 1456355.11;;;none;none
+Section 7;cpv_accumulation_1_01_1_02;CPV ineligible under BG-RRP-1.015 | contracts / schools / EUR excl VAT;83 / 45 / 145182.96;;;none;none
+Section 8;pre_payment_asymmetry;payment records | all / linked / direct / by document / unlinked;7629 / 4273 / 4207 / 66 / 3356;;;none;none
+Section 8;pre_payment_asymmetry;actions before expenditure | all / linked / unlinked / unlinked with checklist / schools with unlinked checklist;1146 / 455 / 691 / 610 / 145;;;none;none
+Section 8;pre_payment_asymmetry;All contracts with a linked action before expenditure | all | contracts / schools / EUR excl VAT / without amount;274 / 144 / 5957290.23 / 10;;;none;none
+Section 8;pre_payment_asymmetry;All contracts with a linked action before expenditure | checklist yes | contracts / schools / EUR excl VAT / without amount;264 / 140 / 5756535.02 / 9;;;none;none
+Section 8;pre_payment_asymmetry;All contracts with a linked action before expenditure | checklist yes with payment record | contracts / schools / EUR excl VAT / without amount;246 / 136 / 5419690.74 / 7;;;none;none
+Section 8;pre_payment_asymmetry;All contracts with a linked action before expenditure | checklist no | contracts / schools / EUR excl VAT / without amount;10 / 10 / 200755.21 / 1;;;none;none
+Section 8;pre_payment_asymmetry;Indicator 1 missing or late | all | contracts / schools / EUR excl VAT / without amount;220 / 120 / 4926054.38 / 7;;;none;none
+Section 8;pre_payment_asymmetry;Indicator 1 missing or late | checklist yes | contracts / schools / EUR excl VAT / without amount;212 / 116 / 4757917.71 / 6;;;none;none
+Section 8;pre_payment_asymmetry;Indicator 1 missing or late | checklist yes with payment record | contracts / schools / EUR excl VAT / without amount;199 / 110 / 4481305.16 / 4;;;none;none
+Section 8;pre_payment_asymmetry;Indicator 1 missing or late | checklist no | contracts / schools / EUR excl VAT / without amount;8 / 8 / 168136.67 / 1;;;none;none
+Section 8;pre_payment_asymmetry;of which: no linked action before commitment | all | contracts / schools / EUR excl VAT / without amount;191 / 102 / 4299237.92 / 5;;;none;none
+Section 8;pre_payment_asymmetry;of which: no linked action before commitment | checklist yes | contracts / schools / EUR excl VAT / without amount;188 / 102 / 4152339.86 / 5;;;none;none
+Section 8;pre_payment_asymmetry;of which: no linked action before commitment | checklist yes with payment record | contracts / schools / EUR excl VAT / without amount;175 / 96 / 3875727.31 / 3;;;none;none
+Section 8;pre_payment_asymmetry;of which: no linked action before commitment | checklist no | contracts / schools / EUR excl VAT / without amount;3 / 3 / 146898.06 / 0;;;none;none
+Section 8;pre_payment_asymmetry;Indicator 2 missing (Art. 237b applicable) | all | contracts / schools / EUR excl VAT / without amount;46 / 36 / 2519769.53 / 0;;;none;none
+Section 8;pre_payment_asymmetry;Indicator 2 missing (Art. 237b applicable) | checklist yes | contracts / schools / EUR excl VAT / without amount;44 / 35 / 2381774.34 / 0;;;none;none
+Section 8;pre_payment_asymmetry;Indicator 2 missing (Art. 237b applicable) | checklist yes with payment record | contracts / schools / EUR excl VAT / without amount;41 / 33 / 2138547.84 / 0;;;none;none
+Section 8;pre_payment_asymmetry;Indicator 2 missing (Art. 237b applicable) | checklist no | contracts / schools / EUR excl VAT / without amount;2 / 2 / 137995.19 / 0;;;none;none
+Section 8;pre_payment_asymmetry;Indicators 1 and 2 both missing | all | contracts / schools / EUR excl VAT / without amount;40 / 33 / 2219260.74 / 0;;;none;none
+Section 8;pre_payment_asymmetry;Indicators 1 and 2 both missing | checklist yes | contracts / schools / EUR excl VAT / without amount;38 / 32 / 2081265.55 / 0;;;none;none
+Section 8;pre_payment_asymmetry;Indicators 1 and 2 both missing | checklist yes with payment record | contracts / schools / EUR excl VAT / without amount;36 / 30 / 1866118.69 / 0;;;none;none
+Section 8;pre_payment_asymmetry;Indicators 1 and 2 both missing | checklist no | contracts / schools / EUR excl VAT / without amount;2 / 2 / 137995.19 / 0;;;none;none
+Section 8;pre_payment_asymmetry;Indicator 1 present | all | contracts / schools / EUR excl VAT / without amount;54 / 35 / 1031235.85 / 3;;;none;none
+Section 8;pre_payment_asymmetry;Indicator 1 present | checklist yes | contracts / schools / EUR excl VAT / without amount;52 / 34 / 998617.31 / 3;;;none;none
+Section 8;pre_payment_asymmetry;Indicator 1 present | checklist yes with payment record | contracts / schools / EUR excl VAT / without amount;47 / 32 / 938385.58 / 3;;;none;none
+Section 8;pre_payment_asymmetry;Indicator 1 present | checklist no | contracts / schools / EUR excl VAT / without amount;2 / 2 / 32618.54 / 0;;;none;none
+Section 8;pre_payment_asymmetry;document chain: Payment records of contracts with a linked action before expenditure | payment records / contracts / schools / EUR excl VAT;1530 / 256 / 140 / 5620445.95;;;none;none
+Section 8;pre_payment_asymmetry;document chain: Payment order date documented | payment records / contracts / schools / EUR excl VAT;763 / 224 / 129 / 4938203.39;;;none;none
+Section 8;pre_payment_asymmetry;document chain: ... and the contract has a dated checklist | payment records / contracts / schools / EUR excl VAT;465 / 137 / 80 / 3240107.18;;;none;none
+Section 8;pre_payment_asymmetry;document chain: Signal: every dated checklist is after the payment order | payment records / contracts / schools / EUR excl VAT;114 / 48 / 41 / 1573204.33;;;none;none
+Section 8;pre_payment_asymmetry;document chain: Checklist dated on or before the payment order | payment records / contracts / schools / EUR excl VAT;351 / 126 / 73 / 3018465.45;;;none;none
+Section 8;pre_payment_asymmetry;document chain: ... and invoice date documented | payment records / contracts / schools / EUR excl VAT;222 / 106 / 66 / 2405675.20;;;none;none
+Section 8;pre_payment_asymmetry;document chain: Signal: invoice dated after that checklist | payment records / contracts / schools / EUR excl VAT;64 / 38 / 29 / 1060989.39;;;none;none
+Section 8;pre_payment_asymmetry;document chain: Invoice dated on or before that checklist | payment records / contracts / schools / EUR excl VAT;158 / 88 / 60 / 1930136.43;;;none;none
+Section 8;pre_payment_asymmetry;document chain: ... and protocol date documented | payment records / contracts / schools / EUR excl VAT;14 / 11 / 10 / 269387.17;;;none;none
+Section 8;pre_payment_asymmetry;document chain: Signal: protocol dated after the invoice | payment records / contracts / schools / EUR excl VAT;3 / 3 / 3 / 16176.15;;;none;none
+Section 8;pre_payment_asymmetry;document chain: Full chain: protocol, invoice, checklist, payment order | payment records / contracts / schools / EUR excl VAT;11 / 8 / 7 / 253211.02;;;none;none
+Section 8;pre_payment_asymmetry;document chain group: Confirmed order | payment records;11;;;none;none
+Section 8;pre_payment_asymmetry;document chain group: Reversed order (signals) | payment records;181;;;none;none
+Section 8;pre_payment_asymmetry;document chain group: Order not verifiable (missing dates) | payment records;1338;;;none;none
+Section 8;pre_payment_asymmetry;order not verifiable | no comparable payment order and checklist dates / no invoice date / no protocol date;1065 / 129 / 144;;;none;none
+Section 8;pre_payment_asymmetry;dates: checklist_date (linked actions before expenditure) | records / YYYY-MM-DD / other format / not documented;455 / 270 / 0 / 185;;;none;none
+Section 8;pre_payment_asymmetry;dates: payment_order_date (payment records in the chain) | records / YYYY-MM-DD / other format / not documented;1530 / 763 / 5 / 762;;;none;none
+Section 8;pre_payment_asymmetry;dates: invoice_date (payment records in the chain) | records / YYYY-MM-DD / other format / not documented;1530 / 942 / 30 / 558;;;none;none
+Section 8;pre_payment_asymmetry;dates: handover_protocol_date (payment records in the chain) | records / YYYY-MM-DD / other format / not documented;1530 / 307 / 6 / 1217;;;none;none
+Section 8;pre_payment_asymmetry;payment_amount | numeric records / linked records / maximum;2006 / 4273 / 1000012348.00;;;none;none
+Section 8;pre_payment_asymmetry;control point: Before the award decision: control under Art. 237b PPA (Indicator 2) | Documented | contracts / EUR excl VAT;1 / 47092.68;;;none;none
+Section 8;pre_payment_asymmetry;control point: Before the award decision: control under Art. 237b PPA (Indicator 2) | Not documented (missing or late) | contracts / EUR excl VAT;46 / 2519769.53;;;none;none
+Section 8;pre_payment_asymmetry;control point: Before the award decision: control under Art. 237b PPA (Indicator 2) | Art. 237b PPA does not apply | contracts / EUR excl VAT;218 / 3390428.02;;;none;none
+Section 8;pre_payment_asymmetry;control point: Before the award decision: control under Art. 237b PPA (Indicator 2) | Cannot be assessed | contracts / EUR excl VAT;9 / 0.00;;;none;none
+Section 8;pre_payment_asymmetry;control point: Before commitment: timely checklist (Indicator 1) | Documented | contracts / EUR excl VAT;54 / 1031235.85;;;none;none
+Section 8;pre_payment_asymmetry;control point: Before commitment: timely checklist (Indicator 1) | Not documented (missing or late) | contracts / EUR excl VAT;220 / 4926054.38;;;none;none
+Section 8;pre_payment_asymmetry;control point: Before commitment: timely checklist (Indicator 1) | Art. 237b PPA does not apply | contracts / EUR excl VAT;0 / 0.00;;;none;none
+Section 8;pre_payment_asymmetry;control point: Before commitment: timely checklist (Indicator 1) | Cannot be assessed | contracts / EUR excl VAT;0 / 0.00;;;none;none
+Section 8;pre_payment_asymmetry;control point: Before payment: checklist before expenditure (Indicator 3, formal) | Documented | contracts / EUR excl VAT;264 / 5756535.02;;;none;none
+Section 8;pre_payment_asymmetry;control point: Before payment: checklist before expenditure (Indicator 3, formal) | Not documented (missing or late) | contracts / EUR excl VAT;10 / 200755.21;;;none;none
+Section 8;pre_payment_asymmetry;control point: Before payment: checklist before expenditure (Indicator 3, formal) | Art. 237b PPA does not apply | contracts / EUR excl VAT;0 / 0.00;;;none;none
+Section 8;pre_payment_asymmetry;control point: Before payment: checklist before expenditure (Indicator 3, formal) | Cannot be assessed | contracts / EUR excl VAT;0 / 0.00;;;none;none
+Section 8;pre_payment_asymmetry;checklist yes with Indicator 1 or Indicator 2 missing, each contract once | contracts / schools / EUR excl VAT / without amount;218 / 118 / 5058426.50 / 6;;;none;none
+Section 8;pre_payment_asymmetry;Indicator 1 missing among contracts with checklist yes | contracts / base / share;212 / 264 / 80.30%;;;none;none
+Section 8;pre_payment_asymmetry;Art. 237b status: Documented | contracts without amount;0;;;none;none
+Section 8;pre_payment_asymmetry;Art. 237b status: Not documented (missing or late) | contracts without amount;0;;;none;none
+Section 8;pre_payment_asymmetry;Art. 237b status: Art. 237b PPA does not apply | contracts without amount;1;;;none;none
+Section 8;pre_payment_asymmetry;Art. 237b status: Cannot be assessed | contracts without amount;9;;;none;none
+Section 8;pre_payment_asymmetry;checklist yes with Indicator 1 missing | contracts / with a linked payment record / with a documented payment order date;212 / 199 / 176;;;none;none
+Section 9;caught_missed_practices;Class 1.01: Splitting of procurements | before commitment | applies_contracts / applies_eur / applies_without_amount / recorded_contracts / opinion_of_legality_contracts / opinion_of_legality_eur / opinion_with_reservations_contracts / opinion_with_reservations_eur / refusal_contracts / refusal_eur / no_record_contracts / no_record_eur / checklist_after_contract_contracts / checklist_after_contract_eur / opinion_of_legality_after_contract_contracts / opinion_with_reservations_after_contract_contracts / refusal_after_contract_contracts / corpus_caught_contracts / corpus_caught_eur / corpus_missed_contracts / cannot_be_assessed_contracts / cannot_be_assessed_eur / cannot_be_assessed_without_amount / cannot_apply_contracts / cannot_apply_eur / cannot_apply_without_amount / indicator_1_missing_or_late_contracts / indicator_1_missing_or_late_eur / indicator_2_documented_contracts / indicator_2_not_documented_contracts / indicator_2_not_documented_eur / indicator_2_cannot_be_assessed_contracts / indicator_2_cannot_be_assessed_eur / refusal_without_indicator_1_contracts / refusal_without_indicator_2_contracts;73 997248.14 0 17 14 147556.01 3 42793.62 0 0.00 56 806898.51 5 67113.81 4 1 0 3 42793.62 14 368 3262577.74 162 0 0.00 0 - - - - - - - - -;;;none;none
+Section 9;caught_missed_practices;Class 1.01: Splitting of procurements | before expenditure | applies_contracts / applies_eur / applies_without_amount / recorded_contracts / opinion_of_legality_contracts / opinion_of_legality_eur / opinion_with_reservations_contracts / opinion_with_reservations_eur / refusal_contracts / refusal_eur / no_record_contracts / no_record_eur / checklist_after_contract_contracts / checklist_after_contract_eur / opinion_of_legality_after_contract_contracts / opinion_with_reservations_after_contract_contracts / refusal_after_contract_contracts / corpus_caught_contracts / corpus_caught_eur / corpus_missed_contracts / cannot_be_assessed_contracts / cannot_be_assessed_eur / cannot_be_assessed_without_amount / cannot_apply_contracts / cannot_apply_eur / cannot_apply_without_amount / indicator_1_missing_or_late_contracts / indicator_1_missing_or_late_eur / indicator_2_documented_contracts / indicator_2_not_documented_contracts / indicator_2_not_documented_eur / indicator_2_cannot_be_assessed_contracts / indicator_2_cannot_be_assessed_eur / refusal_without_indicator_1_contracts / refusal_without_indicator_2_contracts;73 997248.14 0 11 9 118417.01 1 4130.00 1 15196.46 62 859504.67 - - - - - 2 19326.46 9 368 3262577.74 162 0 0.00 0 - - - - - - - - -;;;none;none
+Section 9;caught_missed_practices;Class 1.02: Direct award at a value requiring a call or procedure | before commitment | applies_contracts / applies_eur / applies_without_amount / recorded_contracts / opinion_of_legality_contracts / opinion_of_legality_eur / opinion_with_reservations_contracts / opinion_with_reservations_eur / refusal_contracts / refusal_eur / no_record_contracts / no_record_eur / checklist_after_contract_contracts / checklist_after_contract_eur / opinion_of_legality_after_contract_contracts / opinion_with_reservations_after_contract_contracts / refusal_after_contract_contracts / corpus_caught_contracts / corpus_caught_eur / corpus_missed_contracts / cannot_be_assessed_contracts / cannot_be_assessed_eur / cannot_be_assessed_without_amount / cannot_apply_contracts / cannot_apply_eur / cannot_apply_without_amount / indicator_1_missing_or_late_contracts / indicator_1_missing_or_late_eur / indicator_2_documented_contracts / indicator_2_not_documented_contracts / indicator_2_not_documented_eur / indicator_2_cannot_be_assessed_contracts / indicator_2_cannot_be_assessed_eur / refusal_without_indicator_1_contracts / refusal_without_indicator_2_contracts;9 537559.86 0 2 2 81088.33 0 0.00 0 0.00 7 456471.53 2 81088.33 2 0 0 0 0.00 2 368 3262577.74 162 0 0.00 0 - - - - - - - - -;;;none;none
+Section 9;caught_missed_practices;Class 1.02: Direct award at a value requiring a call or procedure | before expenditure | applies_contracts / applies_eur / applies_without_amount / recorded_contracts / opinion_of_legality_contracts / opinion_of_legality_eur / opinion_with_reservations_contracts / opinion_with_reservations_eur / refusal_contracts / refusal_eur / no_record_contracts / no_record_eur / checklist_after_contract_contracts / checklist_after_contract_eur / opinion_of_legality_after_contract_contracts / opinion_with_reservations_after_contract_contracts / refusal_after_contract_contracts / corpus_caught_contracts / corpus_caught_eur / corpus_missed_contracts / cannot_be_assessed_contracts / cannot_be_assessed_eur / cannot_be_assessed_without_amount / cannot_apply_contracts / cannot_apply_eur / cannot_apply_without_amount / indicator_1_missing_or_late_contracts / indicator_1_missing_or_late_eur / indicator_2_documented_contracts / indicator_2_not_documented_contracts / indicator_2_not_documented_eur / indicator_2_cannot_be_assessed_contracts / indicator_2_cannot_be_assessed_eur / refusal_without_indicator_1_contracts / refusal_without_indicator_2_contracts;9 537559.86 0 0 0 0.00 0 0.00 0 0.00 9 537559.86 - - - - - 0 0.00 0 368 3262577.74 162 0 0.00 0 - - - - - - - - -;;;none;none
+Section 9;caught_missed_practices;Class 10.01: Commitment or payment without ex-ante control | before commitment | applies_contracts / applies_eur / applies_without_amount / recorded_contracts / opinion_of_legality_contracts / opinion_of_legality_eur / opinion_with_reservations_contracts / opinion_with_reservations_eur / refusal_contracts / refusal_eur / no_record_contracts / no_record_eur / checklist_after_contract_contracts / checklist_after_contract_eur / opinion_of_legality_after_contract_contracts / opinion_with_reservations_after_contract_contracts / refusal_after_contract_contracts / corpus_caught_contracts / corpus_caught_eur / corpus_missed_contracts / cannot_be_assessed_contracts / cannot_be_assessed_eur / cannot_be_assessed_without_amount / cannot_apply_contracts / cannot_apply_eur / cannot_apply_without_amount / indicator_1_missing_or_late_contracts / indicator_1_missing_or_late_eur / indicator_2_documented_contracts / indicator_2_not_documented_contracts / indicator_2_not_documented_eur / indicator_2_cannot_be_assessed_contracts / indicator_2_cannot_be_assessed_eur / refusal_without_indicator_1_contracts / refusal_without_indicator_2_contracts;1213 24831164.29 156 97 88 2151124.08 8 162076.05 1 73244.25 1116 22444719.91 97 2386444.38 88 8 1 9 235320.30 88 0 0.00 0 0 0.00 0 - - - - - - - - -;;;none;none
+Section 9;caught_missed_practices;Class 10.01: Commitment or payment without ex-ante control | before expenditure | applies_contracts / applies_eur / applies_without_amount / recorded_contracts / opinion_of_legality_contracts / opinion_of_legality_eur / opinion_with_reservations_contracts / opinion_with_reservations_eur / refusal_contracts / refusal_eur / no_record_contracts / no_record_eur / checklist_after_contract_contracts / checklist_after_contract_eur / opinion_of_legality_after_contract_contracts / opinion_with_reservations_after_contract_contracts / refusal_after_contract_contracts / corpus_caught_contracts / corpus_caught_eur / corpus_missed_contracts / cannot_be_assessed_contracts / cannot_be_assessed_eur / cannot_be_assessed_without_amount / cannot_apply_contracts / cannot_apply_eur / cannot_apply_without_amount / indicator_1_missing_or_late_contracts / indicator_1_missing_or_late_eur / indicator_2_documented_contracts / indicator_2_not_documented_contracts / indicator_2_not_documented_eur / indicator_2_cannot_be_assessed_contracts / indicator_2_cannot_be_assessed_eur / refusal_without_indicator_1_contracts / refusal_without_indicator_2_contracts;1213 24831164.29 156 212 196 4429403.87 14 288537.10 2 39976.74 1001 20073246.58 - - - - - 16 328513.84 196 0 0.00 0 0 0.00 0 - - - - - - - - -;;;none;none
+Section 9;caught_missed_practices;Class 10.03: Unestablished procedure for ex-ante control | before commitment | applies_contracts / applies_eur / applies_without_amount / recorded_contracts / opinion_of_legality_contracts / opinion_of_legality_eur / opinion_with_reservations_contracts / opinion_with_reservations_eur / refusal_contracts / refusal_eur / no_record_contracts / no_record_eur / checklist_after_contract_contracts / checklist_after_contract_eur / opinion_of_legality_after_contract_contracts / opinion_with_reservations_after_contract_contracts / refusal_after_contract_contracts / corpus_caught_contracts / corpus_caught_eur / corpus_missed_contracts / cannot_be_assessed_contracts / cannot_be_assessed_eur / cannot_be_assessed_without_amount / cannot_apply_contracts / cannot_apply_eur / cannot_apply_without_amount / indicator_1_missing_or_late_contracts / indicator_1_missing_or_late_eur / indicator_2_documented_contracts / indicator_2_not_documented_contracts / indicator_2_not_documented_eur / indicator_2_cannot_be_assessed_contracts / indicator_2_cannot_be_assessed_eur / refusal_without_indicator_1_contracts / refusal_without_indicator_2_contracts;329 6748858.98 38 51 47 897359.97 4 94779.09 0 0.00 278 5756719.92 28 613507.56 26 2 0 4 94779.09 47 143 3257271.00 12 0 0.00 0 - - - - - - - - -;;;none;none
+Section 9;caught_missed_practices;Class 10.03: Unestablished procedure for ex-ante control | before expenditure | applies_contracts / applies_eur / applies_without_amount / recorded_contracts / opinion_of_legality_contracts / opinion_of_legality_eur / opinion_with_reservations_contracts / opinion_with_reservations_eur / refusal_contracts / refusal_eur / no_record_contracts / no_record_eur / checklist_after_contract_contracts / checklist_after_contract_eur / opinion_of_legality_after_contract_contracts / opinion_with_reservations_after_contract_contracts / refusal_after_contract_contracts / corpus_caught_contracts / corpus_caught_eur / corpus_missed_contracts / cannot_be_assessed_contracts / cannot_be_assessed_eur / cannot_be_assessed_without_amount / cannot_apply_contracts / cannot_apply_eur / cannot_apply_without_amount / indicator_1_missing_or_late_contracts / indicator_1_missing_or_late_eur / indicator_2_documented_contracts / indicator_2_not_documented_contracts / indicator_2_not_documented_eur / indicator_2_cannot_be_assessed_contracts / indicator_2_cannot_be_assessed_eur / refusal_without_indicator_1_contracts / refusal_without_indicator_2_contracts;329 6748858.98 38 78 73 1264630.18 4 76923.18 1 15196.46 251 5392109.16 - - - - - 5 92119.64 73 143 3257271.00 12 0 0.00 0 - - - - - - - - -;;;none;none
+Section 9;caught_missed_practices;Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | before commitment | applies_contracts / applies_eur / applies_without_amount / recorded_contracts / opinion_of_legality_contracts / opinion_of_legality_eur / opinion_with_reservations_contracts / opinion_with_reservations_eur / refusal_contracts / refusal_eur / no_record_contracts / no_record_eur / checklist_after_contract_contracts / checklist_after_contract_eur / opinion_of_legality_after_contract_contracts / opinion_with_reservations_after_contract_contracts / refusal_after_contract_contracts / corpus_caught_contracts / corpus_caught_eur / corpus_missed_contracts / cannot_be_assessed_contracts / cannot_be_assessed_eur / cannot_be_assessed_without_amount / cannot_apply_contracts / cannot_apply_eur / cannot_apply_without_amount / indicator_1_missing_or_late_contracts / indicator_1_missing_or_late_eur / indicator_2_documented_contracts / indicator_2_not_documented_contracts / indicator_2_not_documented_eur / indicator_2_cannot_be_assessed_contracts / indicator_2_cannot_be_assessed_eur / refusal_without_indicator_1_contracts / refusal_without_indicator_2_contracts;232 11033935.84 0 39 34 1589175.76 5 62893.24 0 0.00 193 9381866.84 13 737816.37 13 0 0 5 62893.24 34 137 0.00 137 47 434725.61 25 - - - - - - - - -;;;none;none
+Section 9;caught_missed_practices;Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | before expenditure | applies_contracts / applies_eur / applies_without_amount / recorded_contracts / opinion_of_legality_contracts / opinion_of_legality_eur / opinion_with_reservations_contracts / opinion_with_reservations_eur / refusal_contracts / refusal_eur / no_record_contracts / no_record_eur / checklist_after_contract_contracts / checklist_after_contract_eur / opinion_of_legality_after_contract_contracts / opinion_with_reservations_after_contract_contracts / refusal_after_contract_contracts / corpus_caught_contracts / corpus_caught_eur / corpus_missed_contracts / cannot_be_assessed_contracts / cannot_be_assessed_eur / cannot_be_assessed_without_amount / cannot_apply_contracts / cannot_apply_eur / cannot_apply_without_amount / indicator_1_missing_or_late_contracts / indicator_1_missing_or_late_eur / indicator_2_documented_contracts / indicator_2_not_documented_contracts / indicator_2_not_documented_eur / indicator_2_cannot_be_assessed_contracts / indicator_2_cannot_be_assessed_eur / refusal_without_indicator_1_contracts / refusal_without_indicator_2_contracts;232 11033935.84 0 44 38 2195427.84 5 171150.04 1 15196.46 188 8652161.50 - - - - - 6 186346.50 38 137 0.00 137 47 434725.61 25 - - - - - - - - -;;;none;none
+Section 9;caught_missed_practices;Purchases from one supplier within 30 days, each below the threshold, together reaching it | before commitment | applies_contracts / applies_eur / applies_without_amount / recorded_contracts / opinion_of_legality_contracts / opinion_of_legality_eur / opinion_with_reservations_contracts / opinion_with_reservations_eur / refusal_contracts / refusal_eur / no_record_contracts / no_record_eur / checklist_after_contract_contracts / checklist_after_contract_eur / opinion_of_legality_after_contract_contracts / opinion_with_reservations_after_contract_contracts / refusal_after_contract_contracts / corpus_caught_contracts / corpus_caught_eur / corpus_missed_contracts / cannot_be_assessed_contracts / cannot_be_assessed_eur / cannot_be_assessed_without_amount / cannot_apply_contracts / cannot_apply_eur / cannot_apply_without_amount / indicator_1_missing_or_late_contracts / indicator_1_missing_or_late_eur / indicator_2_documented_contracts / indicator_2_not_documented_contracts / indicator_2_not_documented_eur / indicator_2_cannot_be_assessed_contracts / indicator_2_cannot_be_assessed_eur / refusal_without_indicator_1_contracts / refusal_without_indicator_2_contracts;112 1726574.79 3 21 18 296096.57 3 41063.90 0 0.00 91 1389414.32 5 79221.51 4 1 0 - - - 228 4928995.44 123 0 0.00 0 95 1454369.15 0 15 415898.26 1 0.00 - -;;;none;none
+Section 9;caught_missed_practices;Purchases from one supplier within 30 days, each below the threshold, together reaching it | before expenditure | applies_contracts / applies_eur / applies_without_amount / recorded_contracts / opinion_of_legality_contracts / opinion_of_legality_eur / opinion_with_reservations_contracts / opinion_with_reservations_eur / refusal_contracts / refusal_eur / no_record_contracts / no_record_eur / checklist_after_contract_contracts / checklist_after_contract_eur / opinion_of_legality_after_contract_contracts / opinion_with_reservations_after_contract_contracts / refusal_after_contract_contracts / corpus_caught_contracts / corpus_caught_eur / corpus_missed_contracts / cannot_be_assessed_contracts / cannot_be_assessed_eur / cannot_be_assessed_without_amount / cannot_apply_contracts / cannot_apply_eur / cannot_apply_without_amount / indicator_1_missing_or_late_contracts / indicator_1_missing_or_late_eur / indicator_2_documented_contracts / indicator_2_not_documented_contracts / indicator_2_not_documented_eur / indicator_2_cannot_be_assessed_contracts / indicator_2_cannot_be_assessed_eur / refusal_without_indicator_1_contracts / refusal_without_indicator_2_contracts;112 1726574.79 3 32 28 549935.80 2 31351.87 2 39976.74 80 1105310.38 - - - - - - - - 228 4928995.44 123 0 0.00 0 95 1454369.15 0 15 415898.26 1 0.00 2 1;;;none;none
+Section 9;caught_missed_practices;Contract signed before the project start | before commitment | applies_contracts / applies_eur / applies_without_amount / recorded_contracts / opinion_of_legality_contracts / opinion_of_legality_eur / opinion_with_reservations_contracts / opinion_with_reservations_eur / refusal_contracts / refusal_eur / no_record_contracts / no_record_eur / checklist_after_contract_contracts / checklist_after_contract_eur / opinion_of_legality_after_contract_contracts / opinion_with_reservations_after_contract_contracts / refusal_after_contract_contracts / corpus_caught_contracts / corpus_caught_eur / corpus_missed_contracts / cannot_be_assessed_contracts / cannot_be_assessed_eur / cannot_be_assessed_without_amount / cannot_apply_contracts / cannot_apply_eur / cannot_apply_without_amount / indicator_1_missing_or_late_contracts / indicator_1_missing_or_late_eur / indicator_2_documented_contracts / indicator_2_not_documented_contracts / indicator_2_not_documented_eur / indicator_2_cannot_be_assessed_contracts / indicator_2_cannot_be_assessed_eur / refusal_without_indicator_1_contracts / refusal_without_indicator_2_contracts;53 1003841.38 1 10 10 178215.76 0 0.00 0 0.00 43 825625.62 7 64982.93 7 0 0 - - - 228 4928995.44 123 0 0.00 0 50 890608.55 0 14 492082.37 0 0.00 - -;;;none;none
+Section 9;caught_missed_practices;Contract signed before the project start | before expenditure | applies_contracts / applies_eur / applies_without_amount / recorded_contracts / opinion_of_legality_contracts / opinion_of_legality_eur / opinion_with_reservations_contracts / opinion_with_reservations_eur / refusal_contracts / refusal_eur / no_record_contracts / no_record_eur / checklist_after_contract_contracts / checklist_after_contract_eur / opinion_of_legality_after_contract_contracts / opinion_with_reservations_after_contract_contracts / refusal_after_contract_contracts / corpus_caught_contracts / corpus_caught_eur / corpus_missed_contracts / cannot_be_assessed_contracts / cannot_be_assessed_eur / cannot_be_assessed_without_amount / cannot_apply_contracts / cannot_apply_eur / cannot_apply_without_amount / indicator_1_missing_or_late_contracts / indicator_1_missing_or_late_eur / indicator_2_documented_contracts / indicator_2_not_documented_contracts / indicator_2_not_documented_eur / indicator_2_cannot_be_assessed_contracts / indicator_2_cannot_be_assessed_eur / refusal_without_indicator_1_contracts / refusal_without_indicator_2_contracts;53 1003841.38 1 6 6 85665.33 0 0.00 0 0.00 47 918176.05 - - - - - - - - 228 4928995.44 123 0 0.00 0 50 890608.55 0 14 492082.37 0 0.00 0 0;;;none;none
+Section 9;caught_missed_practices;Price just below BGN 50,000 (from 2024) | before commitment | applies_contracts / applies_eur / applies_without_amount / recorded_contracts / opinion_of_legality_contracts / opinion_of_legality_eur / opinion_with_reservations_contracts / opinion_with_reservations_eur / refusal_contracts / refusal_eur / no_record_contracts / no_record_eur / checklist_after_contract_contracts / checklist_after_contract_eur / opinion_of_legality_after_contract_contracts / opinion_with_reservations_after_contract_contracts / refusal_after_contract_contracts / corpus_caught_contracts / corpus_caught_eur / corpus_missed_contracts / cannot_be_assessed_contracts / cannot_be_assessed_eur / cannot_be_assessed_without_amount / cannot_apply_contracts / cannot_apply_eur / cannot_apply_without_amount / indicator_1_missing_or_late_contracts / indicator_1_missing_or_late_eur / indicator_2_documented_contracts / indicator_2_not_documented_contracts / indicator_2_not_documented_eur / indicator_2_cannot_be_assessed_contracts / indicator_2_cannot_be_assessed_eur / refusal_without_indicator_1_contracts / refusal_without_indicator_2_contracts;32 758682.90 0 4 3 63156.41 1 25535.62 0 0.00 28 669990.87 2 50323.05 1 1 0 - - - 228 4928995.44 123 0 0.00 0 30 720313.92 0 8 202868.38 0 0.00 - -;;;none;none
+Section 9;caught_missed_practices;Price just below BGN 50,000 (from 2024) | before expenditure | applies_contracts / applies_eur / applies_without_amount / recorded_contracts / opinion_of_legality_contracts / opinion_of_legality_eur / opinion_with_reservations_contracts / opinion_with_reservations_eur / refusal_contracts / refusal_eur / no_record_contracts / no_record_eur / checklist_after_contract_contracts / checklist_after_contract_eur / opinion_of_legality_after_contract_contracts / opinion_with_reservations_after_contract_contracts / refusal_after_contract_contracts / corpus_caught_contracts / corpus_caught_eur / corpus_missed_contracts / cannot_be_assessed_contracts / cannot_be_assessed_eur / cannot_be_assessed_without_amount / cannot_apply_contracts / cannot_apply_eur / cannot_apply_without_amount / indicator_1_missing_or_late_contracts / indicator_1_missing_or_late_eur / indicator_2_documented_contracts / indicator_2_not_documented_contracts / indicator_2_not_documented_eur / indicator_2_cannot_be_assessed_contracts / indicator_2_cannot_be_assessed_eur / refusal_without_indicator_1_contracts / refusal_without_indicator_2_contracts;32 758682.90 0 8 7 177499.36 0 0.00 1 24780.28 24 556403.26 - - - - - - - - 228 4928995.44 123 0 0.00 0 30 720313.92 0 8 202868.38 0 0.00 1 0;;;none;none
+Section 9;caught_missed_practices;Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | before commitment | applies_contracts / applies_eur / applies_without_amount / recorded_contracts / opinion_of_legality_contracts / opinion_of_legality_eur / opinion_with_reservations_contracts / opinion_with_reservations_eur / refusal_contracts / refusal_eur / no_record_contracts / no_record_eur / checklist_after_contract_contracts / checklist_after_contract_eur / opinion_of_legality_after_contract_contracts / opinion_with_reservations_after_contract_contracts / refusal_after_contract_contracts / corpus_caught_contracts / corpus_caught_eur / corpus_missed_contracts / cannot_be_assessed_contracts / cannot_be_assessed_eur / cannot_be_assessed_without_amount / cannot_apply_contracts / cannot_apply_eur / cannot_apply_without_amount / indicator_1_missing_or_late_contracts / indicator_1_missing_or_late_eur / indicator_2_documented_contracts / indicator_2_not_documented_contracts / indicator_2_not_documented_eur / indicator_2_cannot_be_assessed_contracts / indicator_2_cannot_be_assessed_eur / refusal_without_indicator_1_contracts / refusal_without_indicator_2_contracts;1 21813.09 0 0 0 0.00 0 0.00 0 0.00 1 21813.09 0 0.00 0 0 0 - - - 228 4928995.44 123 0 0.00 0 1 21813.09 0 0 0.00 0 0.00 - -;;;none;none
+Section 9;caught_missed_practices;Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | before expenditure | applies_contracts / applies_eur / applies_without_amount / recorded_contracts / opinion_of_legality_contracts / opinion_of_legality_eur / opinion_with_reservations_contracts / opinion_with_reservations_eur / refusal_contracts / refusal_eur / no_record_contracts / no_record_eur / checklist_after_contract_contracts / checklist_after_contract_eur / opinion_of_legality_after_contract_contracts / opinion_with_reservations_after_contract_contracts / refusal_after_contract_contracts / corpus_caught_contracts / corpus_caught_eur / corpus_missed_contracts / cannot_be_assessed_contracts / cannot_be_assessed_eur / cannot_be_assessed_without_amount / cannot_apply_contracts / cannot_apply_eur / cannot_apply_without_amount / indicator_1_missing_or_late_contracts / indicator_1_missing_or_late_eur / indicator_2_documented_contracts / indicator_2_not_documented_contracts / indicator_2_not_documented_eur / indicator_2_cannot_be_assessed_contracts / indicator_2_cannot_be_assessed_eur / refusal_without_indicator_1_contracts / refusal_without_indicator_2_contracts;1 21813.09 0 0 0 0.00 0 0.00 0 0.00 1 21813.09 - - - - - - - - 228 4928995.44 123 0 0.00 0 1 21813.09 0 0 0.00 0 0.00 0 0;;;none;none
+Section 9;section_1_refusal_rule;Class 1.01: Splitting of procurements | before commitment | contracts;0;;;none;none
+Section 9;section_1_refusal_rule;Class 1.01: Splitting of procurements | before commitment | EUR excl. VAT;0.00;;;none;none
+Section 9;section_1_refusal_rule;Class 1.01: Splitting of procurements | before expenditure | contracts;1;;;none;none
+Section 9;section_1_refusal_rule;Class 1.01: Splitting of procurements | before expenditure | EUR excl. VAT;15196.46;;;none;none
+Section 9;section_1_refusal_rule;Class 1.02: Direct award at a value requiring a call or procedure | before commitment | contracts;0;;;none;none
+Section 9;section_1_refusal_rule;Class 1.02: Direct award at a value requiring a call or procedure | before commitment | EUR excl. VAT;0.00;;;none;none
+Section 9;section_1_refusal_rule;Class 1.02: Direct award at a value requiring a call or procedure | before expenditure | contracts;0;;;none;none
+Section 9;section_1_refusal_rule;Class 1.02: Direct award at a value requiring a call or procedure | before expenditure | EUR excl. VAT;0.00;;;none;none
+Section 9;section_1_refusal_rule;Purchases from one supplier within 30 days, each below the threshold, together reaching it | before commitment | contracts;0;;;none;none
+Section 9;section_1_refusal_rule;Purchases from one supplier within 30 days, each below the threshold, together reaching it | before commitment | EUR excl. VAT;0.00;;;none;none
+Section 9;section_1_refusal_rule;Purchases from one supplier within 30 days, each below the threshold, together reaching it | before expenditure | contracts;2;;;none;none
+Section 9;section_1_refusal_rule;Purchases from one supplier within 30 days, each below the threshold, together reaching it | before expenditure | EUR excl. VAT;39976.74;;;none;none
+Section 9;section_1_refusal_rule;Contract signed before the project start | before commitment | contracts;0;;;none;none
+Section 9;section_1_refusal_rule;Contract signed before the project start | before commitment | EUR excl. VAT;0.00;;;none;none
+Section 9;section_1_refusal_rule;Contract signed before the project start | before expenditure | contracts;0;;;none;none
+Section 9;section_1_refusal_rule;Contract signed before the project start | before expenditure | EUR excl. VAT;0.00;;;none;none
+Section 9;section_1_refusal_rule;Price just below BGN 50,000 (from 2024) | before commitment | contracts;0;;;none;none
+Section 9;section_1_refusal_rule;Price just below BGN 50,000 (from 2024) | before commitment | EUR excl. VAT;0.00;;;none;none
+Section 9;section_1_refusal_rule;Price just below BGN 50,000 (from 2024) | before expenditure | contracts;1;;;none;none
+Section 9;section_1_refusal_rule;Price just below BGN 50,000 (from 2024) | before expenditure | EUR excl. VAT;24780.28;;;none;none
+Section 9;section_1_refusal_rule;Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | before commitment | contracts;0;;;none;none
+Section 9;section_1_refusal_rule;Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | before commitment | EUR excl. VAT;0.00;;;none;none
+Section 9;section_1_refusal_rule;Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | before expenditure | contracts;0;;;none;none
+Section 9;section_1_refusal_rule;Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | before expenditure | EUR excl. VAT;0.00;;;none;none
+Section 9;caught_missed_practices;contracts not linked to ISUN 2020 | contracts;228;;;none;none
+Section 9;caught_missed_practices;contracts not linked to ISUN 2020 | schools;75;;;none;none
+Section 9;caught_missed_practices;contracts not linked to ISUN 2020 | eur_excl_vat;4928995.44;;;none;none
+Section 9;caught_missed_practices;contracts not linked to ISUN 2020 | without_amount;123;;;none;none
+Section 9;section_1_refusal_rule;refusals recorded before commitment for the practices under the rule;0;;;none;none
+Section 9;caught_missed_practices;practice and control moment rows where contracts with no record are the majority;18;;;none;none
+Section 9;caught_missed_practices;rows with a recorded result;15;;;none;none
+Section 9;caught_missed_practices;rows with a recorded result where opinions of legality outnumber objections;15;;;none;none
+Section 9;caught_missed_practices;checklists before commitment;1328;;;none;none
+Section 9;caught_missed_practices;checklists before commitment naming no contract;853;;;none;none
+Section 9;caught_missed_practices;checklists before expenditure;1146;;;none;none
+Section 9;caught_missed_practices;checklists before expenditure naming no contract;691;;;none;none
+Section 9;caught_missed_practices;contracts linked to ISUN 2020;1167;;;none;none
+Section 9;measurability_boundary;classes in the classifier;53;;;none;none
+Section 9;measurability_boundary;classes in the scope of this study;52;;;none;none
+Section 9;measurability_boundary;classes measured in this section;5;;;none;none
+Section 9;measurability_boundary;classes beyond the measurability boundary;47;;;none;none
+Section 9;measurability_boundary;rows in classifier_checks, all not applicable;54802;;;none;none
+Section 10;directorate_comparison;FOI | Class 1.01: Splitting of procurements | FID3 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;2 / 42446.62 / 0 | 67 / 2418844.29 / 0 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 35 / 356217.07 / 15;;;none;none
+Section 10;directorate_comparison;FOI | Class 1.01: Splitting of procurements | FID4 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;18 / 311820.23 / 0 | 305 / 7759358.53 / 0 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 117 / 707668.02 / 65;;;none;none
+Section 10;directorate_comparison;FOI | Class 1.01: Splitting of procurements | FID5 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;0 / 0.00 / 0 | 17 / 434146.65 / 0 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 9 / 83383.00 / 5;;;none;none
+Section 10;directorate_comparison;FOI | Class 1.01: Splitting of procurements | FID6 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;7 / 90309.72 / 0 | 103 / 2347829.85 / 0 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 30 / 280772.37 / 18;;;none;none
+Section 10;directorate_comparison;FOI | Class 1.01: Splitting of procurements | FID7 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;46 / 552671.57 / 0 | 535 / 11839379.95 / 0 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 177 / 1834537.28 / 59;;;none;none
+Section 10;directorate_comparison;FOI | Class 1.02: Direct award at a value requiring a call or procedure | FID3 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;0 / 0.00 / 0 | 67 / 2418844.29 / 0 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 35 / 356217.07 / 15;;;none;none
+Section 10;directorate_comparison;FOI | Class 1.02: Direct award at a value requiring a call or procedure | FID4 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;5 / 207952.01 / 0 | 305 / 7759358.53 / 0 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 117 / 707668.02 / 65;;;none;none
+Section 10;directorate_comparison;FOI | Class 1.02: Direct award at a value requiring a call or procedure | FID5 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;0 / 0.00 / 0 | 17 / 434146.65 / 0 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 9 / 83383.00 / 5;;;none;none
+Section 10;directorate_comparison;FOI | Class 1.02: Direct award at a value requiring a call or procedure | FID6 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;1 / 30000.00 / 0 | 103 / 2347829.85 / 0 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 30 / 280772.37 / 18;;;none;none
+Section 10;directorate_comparison;FOI | Class 1.02: Direct award at a value requiring a call or procedure | FID7 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;3 / 299607.85 / 0 | 535 / 11839379.95 / 0 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 177 / 1834537.28 / 59;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.01: Commitment or payment without ex-ante control | FID3 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;90 / 2424115.86 / 15 | 102 / 2775061.36 / 15 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 0 / 0.00 / 0;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.01: Commitment or payment without ex-ante control | FID4 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;385 / 7651982.90 / 63 | 422 / 8467026.55 / 65 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 0 / 0.00 / 0;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.01: Commitment or payment without ex-ante control | FID5 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;25 / 515824.65 / 5 | 26 / 517529.65 / 5 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 0 / 0.00 / 0;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.01: Commitment or payment without ex-ante control | FID6 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;127 / 2518869.29 / 17 | 133 / 2628602.22 / 18 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 0 / 0.00 / 0;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.01: Commitment or payment without ex-ante control | FID7 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;586 / 11720371.59 / 56 | 712 / 13673917.23 / 59 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 0 / 0.00 / 0;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.03: Unestablished procedure for ex-ante control | FID3 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;24 / 357096.97 / 10 | 88 / 2443091.11 / 12 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 14 / 331970.25 / 3;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.03: Unestablished procedure for ex-ante control | FID4 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;153 / 3406787.44 / 20 | 395 / 7830840.81 / 64 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 27 / 636185.74 / 1;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.03: Unestablished procedure for ex-ante control | FID5 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;0 / 0.00 / 0 | 26 / 517529.65 / 5 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 0 / 0.00 / 0;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.03: Unestablished procedure for ex-ante control | FID6 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;46 / 920973.95 / 6 | 111 / 2152666.26 / 13 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 22 / 475935.96 / 5;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.03: Unestablished procedure for ex-ante control | FID7 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;106 / 2064000.62 / 2 | 632 / 11860738.18 / 56 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 80 / 1813179.05 / 3;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID3 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;16 / 884479.03 / 0 | 16 / 884479.03 / 0 | 69 / 1835753.94 / 0 | 4 / 54828.39 / 2 | 13 / 0.00 / 13;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID4 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;76 / 3799712.40 / 0 | 77 / 3846805.08 / 0 | 276 / 4579190.71 / 0 | 21 / 41030.76 / 17 | 48 / 0.00 / 48;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID5 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;2 / 165593.83 / 0 | 2 / 165593.83 / 0 | 19 / 351935.82 / 0 | 1 / 0.00 / 1 | 4 / 0.00 / 4;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID6 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;19 / 995058.02 / 0 | 19 / 995058.02 / 0 | 95 / 1611731.11 / 0 | 3 / 21813.09 / 2 | 16 / 0.00 / 16;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID7 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;119 / 5189092.56 / 0 | 119 / 5189092.56 / 0 | 519 / 8167771.30 / 0 | 18 / 317053.37 / 3 | 56 / 0.00 / 56;;;none;none
+Section 10;directorate_comparison;FOI | Purchases from one supplier within 30 days, each below the threshold, together reaching it | FID3 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;8 / 175460.51 / 0 | 79 / 2190750.85 / 2 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 23 / 584310.51 / 13;;;none;none
+Section 10;directorate_comparison;FOI | Purchases from one supplier within 30 days, each below the threshold, together reaching it | FID4 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;40 / 737884.63 / 0 | 323 / 6382405.76 / 8 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 99 / 2084620.79 / 57;;;none;none
+Section 10;directorate_comparison;FOI | Purchases from one supplier within 30 days, each below the threshold, together reaching it | FID5 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;0 / 0.00 / 0 | 22 / 517529.65 / 1 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 4 / 0.00 / 4;;;none;none
+Section 10;directorate_comparison;FOI | Purchases from one supplier within 30 days, each below the threshold, together reaching it | FID6 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;8 / 70532.00 / 0 | 112 / 2102819.40 / 5 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 21 / 525782.82 / 13;;;none;none
+Section 10;directorate_comparison;FOI | Purchases from one supplier within 30 days, each below the threshold, together reaching it | FID7 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;56 / 742697.65 / 3 | 631 / 11939635.91 / 23 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 81 / 1734281.32 / 36;;;none;none
+Section 10;directorate_comparison;FOI | Contract signed before the project start | FID3 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;6 / 153091.87 / 0 | 79 / 2190750.85 / 2 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 23 / 584310.51 / 13;;;none;none
+Section 10;directorate_comparison;FOI | Contract signed before the project start | FID4 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;11 / 261259.13 / 0 | 323 / 6382405.76 / 8 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 99 / 2084620.79 / 57;;;none;none
+Section 10;directorate_comparison;FOI | Contract signed before the project start | FID5 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;0 / 0.00 / 0 | 22 / 517529.65 / 1 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 4 / 0.00 / 4;;;none;none
+Section 10;directorate_comparison;FOI | Contract signed before the project start | FID6 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;9 / 88185.40 / 0 | 112 / 2102819.40 / 5 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 21 / 525782.82 / 13;;;none;none
+Section 10;directorate_comparison;FOI | Contract signed before the project start | FID7 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;27 / 501304.98 / 1 | 631 / 11939635.91 / 23 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 81 / 1734281.32 / 36;;;none;none
+Section 10;directorate_comparison;FOI | Price just below BGN 50,000 (from 2024) | FID3 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;4 / 122784.60 / 0 | 79 / 2190750.85 / 2 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 23 / 584310.51 / 13;;;none;none
+Section 10;directorate_comparison;FOI | Price just below BGN 50,000 (from 2024) | FID4 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;6 / 129094.69 / 0 | 323 / 6382405.76 / 8 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 99 / 2084620.79 / 57;;;none;none
+Section 10;directorate_comparison;FOI | Price just below BGN 50,000 (from 2024) | FID5 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;0 / 0.00 / 0 | 22 / 517529.65 / 1 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 4 / 0.00 / 4;;;none;none
+Section 10;directorate_comparison;FOI | Price just below BGN 50,000 (from 2024) | FID6 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;4 / 87709.23 / 0 | 112 / 2102819.40 / 5 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 21 / 525782.82 / 13;;;none;none
+Section 10;directorate_comparison;FOI | Price just below BGN 50,000 (from 2024) | FID7 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;18 / 419094.38 / 0 | 631 / 11939635.91 / 23 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 81 / 1734281.32 / 36;;;none;none
+Section 10;directorate_comparison;FOI | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | FID3 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;0 / 0.00 / 0 | 79 / 2190750.85 / 2 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 23 / 584310.51 / 13;;;none;none
+Section 10;directorate_comparison;FOI | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | FID4 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;0 / 0.00 / 0 | 323 / 6382405.76 / 8 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 99 / 2084620.79 / 57;;;none;none
+Section 10;directorate_comparison;FOI | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | FID5 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;0 / 0.00 / 0 | 22 / 517529.65 / 1 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 4 / 0.00 / 4;;;none;none
+Section 10;directorate_comparison;FOI | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | FID6 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;1 / 21813.09 / 0 | 112 / 2102819.40 / 5 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 21 / 525782.82 / 13;;;none;none
+Section 10;directorate_comparison;FOI | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | FID7 | contracts / EUR excl VAT / without amount: applies | assessed base | applicability condition not met | not applicable | cannot be assessed;0 / 0.00 / 0 | 631 / 11939635.91 / 23 | 0 / 0.00 / 0 | 0 / 0.00 / 0 | 81 / 1734281.32 / 36;;;none;none
+Section 10;directorate_comparison;FOI | Class 1.01: Splitting of procurements | FID3-FID7 | applies contracts / EUR excl VAT / without amount / assessed base contracts / cannot be assessed contracts;73 / 997248.14 / 0 / 1027 / 368;;;none;none
+Section 10;directorate_comparison;FOI | Class 1.02: Direct award at a value requiring a call or procedure | FID3-FID7 | applies contracts / EUR excl VAT / without amount / assessed base contracts / cannot be assessed contracts;9 / 537559.86 / 0 / 1027 / 368;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.01: Commitment or payment without ex-ante control | FID3-FID7 | applies contracts / EUR excl VAT / without amount / assessed base contracts / cannot be assessed contracts;1213 / 24831164.29 / 156 / 1395 / 0;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.03: Unestablished procedure for ex-ante control | FID3-FID7 | applies contracts / EUR excl VAT / without amount / assessed base contracts / cannot be assessed contracts;329 / 6748858.98 / 38 / 1252 / 143;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID3-FID7 | applies contracts / EUR excl VAT / without amount / assessed base contracts / cannot be assessed contracts;232 / 11033935.84 / 0 / 233 / 137;;;none;none
+Section 10;directorate_comparison;FOI | Purchases from one supplier within 30 days, each below the threshold, together reaching it | FID3-FID7 | applies contracts / EUR excl VAT / without amount / assessed base contracts / cannot be assessed contracts;112 / 1726574.79 / 3 / 1167 / 228;;;none;none
+Section 10;directorate_comparison;FOI | Contract signed before the project start | FID3-FID7 | applies contracts / EUR excl VAT / without amount / assessed base contracts / cannot be assessed contracts;53 / 1003841.38 / 1 / 1167 / 228;;;none;none
+Section 10;directorate_comparison;FOI | Price just below BGN 50,000 (from 2024) | FID3-FID7 | applies contracts / EUR excl VAT / without amount / assessed base contracts / cannot be assessed contracts;32 / 758682.90 / 0 / 1167 / 228;;;none;none
+Section 10;directorate_comparison;FOI | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | FID3-FID7 | applies contracts / EUR excl VAT / without amount / assessed base contracts / cannot be assessed contracts;1 / 21813.09 / 0 / 1167 / 228;;;none;none
+Section 10;directorate_comparison;FOI | FID3 | schools / schools with contracts / contracts / EUR excl VAT / without amount;29 / 24 / 102 / 2775061.36 / 15;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.03: Unestablished procedure for ex-ante control | FID3 | schools to which the class applies / assessed schools / schools without control actions;4 / 23 / 6;;;none;none
+Section 10;directorate_comparison;FOI | FID4 | schools / schools with contracts / contracts / EUR excl VAT / without amount;101 / 87 / 422 / 8467026.55 / 65;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.03: Unestablished procedure for ex-ante control | FID4 | schools to which the class applies / assessed schools / schools without control actions;35 / 87 / 14;;;none;none
+Section 10;directorate_comparison;FOI | FID5 | schools / schools with contracts / contracts / EUR excl VAT / without amount;10 / 5 / 26 / 517529.65 / 5;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.03: Unestablished procedure for ex-ante control | FID5 | schools to which the class applies / assessed schools / schools without control actions;0 / 6 / 4;;;none;none
+Section 10;directorate_comparison;FOI | FID6 | schools / schools with contracts / contracts / EUR excl VAT / without amount;36 / 29 / 133 / 2628602.22 / 18;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.03: Unestablished procedure for ex-ante control | FID6 | schools to which the class applies / assessed schools / schools without control actions;10 / 30 / 6;;;none;none
+Section 10;directorate_comparison;FOI | FID7 | schools / schools with contracts / contracts / EUR excl VAT / without amount;146 / 133 / 712 / 13673917.23 / 59;;;none;none
+Section 10;directorate_comparison;FOI | Class 10.03: Unestablished procedure for ex-ante control | FID7 | schools to which the class applies / assessed schools / schools without control actions;23 / 125 / 21;;;none;none
+Section 10;directorate_comparison;FOI | schools in the Varna region;92;;;none;none
+Section 10;directorate_comparison;FOI | first and last contract date;2023-01-01 / 2026-10-02;;;none;none
+Section 10;directorate_comparison;ADFI reports | reports / reports with classified rows / classification rows / units report x class / first and last publication date;560 / 488 / 1824 / 1643 / 2024-08-01 / 2026-10-09;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.01: Splitting of procurements | FID1 | units with a violation / units;0 / 0;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.01: Splitting of procurements | FID2 | units with a violation / units;0 / 2;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.01: Splitting of procurements | FID2 | share of units with a violation;0.000000;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.01: Splitting of procurements | FID3 | units with a violation / units;3 / 3;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.01: Splitting of procurements | FID3 | share of units with a violation;1.000000;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.01: Splitting of procurements | FID4 | units with a violation / units;2 / 3;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.01: Splitting of procurements | FID4 | share of units with a violation;0.666667;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.01: Splitting of procurements | FID5 | units with a violation / units;2 / 2;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.01: Splitting of procurements | FID5 | share of units with a violation;1.000000;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.01: Splitting of procurements | FID6 | units with a violation / units;1 / 2;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.01: Splitting of procurements | FID6 | share of units with a violation;0.500000;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.01: Splitting of procurements | FID7 | units with a violation / units;2 / 2;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.01: Splitting of procurements | FID7 | share of units with a violation;1.000000;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.01: Splitting of procurements | FID3-FID7 | units with a violation / units;10 / 12;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.01: Splitting of procurements | FID3-FID7 | share of units with a violation;0.833333;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID1 | units with a violation / units;0 / 0;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID2 | units with a violation / units;0 / 0;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID3 | units with a violation / units;3 / 6;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID3 | share of units with a violation;0.500000;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID4 | units with a violation / units;1 / 1;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID4 | share of units with a violation;1.000000;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID5 | units with a violation / units;0 / 0;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID6 | units with a violation / units;1 / 1;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID6 | share of units with a violation;1.000000;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID7 | units with a violation / units;3 / 4;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID7 | share of units with a violation;0.750000;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID3-FID7 | units with a violation / units;8 / 12;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID3-FID7 | share of units with a violation;0.666667;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID1 | units with a violation / units;1 / 1;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID1 | share of units with a violation;1.000000;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID2 | units with a violation / units;0 / 0;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID3 | units with a violation / units;0 / 3;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID3 | share of units with a violation;0.000000;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID4 | units with a violation / units;2 / 2;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID4 | share of units with a violation;1.000000;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID5 | units with a violation / units;1 / 2;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID5 | share of units with a violation;0.500000;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID6 | units with a violation / units;1 / 1;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID6 | share of units with a violation;1.000000;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID7 | units with a violation / units;2 / 2;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID7 | share of units with a violation;1.000000;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID3-FID7 | units with a violation / units;6 / 10;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID3-FID7 | share of units with a violation;0.600000;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID1 | units with a violation / units;0 / 0;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID2 | units with a violation / units;0 / 0;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID3 | units with a violation / units;1 / 1;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID3 | share of units with a violation;1.000000;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID4 | units with a violation / units;0 / 0;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID5 | units with a violation / units;0 / 0;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID6 | units with a violation / units;0 / 0;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID7 | units with a violation / units;0 / 0;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID3-FID7 | units with a violation / units;1 / 1;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID3-FID7 | share of units with a violation;1.000000;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID1 | units with a violation / units;0 / 0;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID2 | units with a violation / units;0 / 0;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID3 | units with a violation / units;0 / 0;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID4 | units with a violation / units;0 / 0;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID5 | units with a violation / units;0 / 0;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID6 | units with a violation / units;0 / 0;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID7 | units with a violation / units;0 / 0;;;none;none
+Section 10;directorate_comparison;ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID3-FID7 | units with a violation / units;0 / 0;;;none;none
+Section 10;H1b_note;classes 2.02 / 3.02 / 3.03 | rows in classifier_checks, all not applicable;3498;;;none;none
+Section 1;figures_cited_in_text;Wilson z;1.95996;;;none;none
+Section 1;figures_cited_in_text;contracts of the STEM project or unconfirmed;1382;;;none;none
+Section 1;figures_cited_in_text;contracts with a linked checklist before commitment;291;;;none;none
+Section 1;figures_cited_in_text;linked checklists before commitment that are undated;132;;;none;none
+Section 2;figures_cited_in_text;contracts linked to ISUN 2020 | EUR excl VAT;23133141.57;;;none;none
+Section 3;figures_cited_in_text;contracts without a linked checklist before commitment;1104;;;none;none
+Section 3;figures_cited_in_text;contracts without a linked checklist before commitment | EUR excl VAT;22163310.10;;;none;none
+Section 3;figures_cited_in_text;documented contracts without a timely checklist;109;;;none;none
+Section 3;figures_cited_in_text;contracts with a dated checklist;148;;;none;none
+Section 3;figures_cited_in_text;contracts with a dated checklist and no timely control;98;;;none;none
+Section 3;figures_cited_in_text;main rule | share of the priced contracted value;0.884864;;;none;none
+Section 4;figures_cited_in_text;control actions with assessed formality;960;;;none;none
+Section 4;figures_cited_in_text;formal checklists with an opinion of legality;593;;;none;none
+Section 4;figures_cited_in_text;batch checklist count above the corpus | lowest;29699;;;none;none
+Section 4;figures_cited_in_text;batch checklist count above the corpus | highest;5068169;;;none;none
+Section 4;figures_cited_in_text;contracts with a formal last checklist before commitment;135;;;none;none
+Section 4;figures_cited_in_text;contracts with a timely checklist before commitment;182;;;none;none
+Section 4;figures_cited_in_text;timely formal checklist before commitment | EUR excl VAT;1143038.96;;;none;none
+Section 4;figures_cited_in_text;timely checklist that is not formal | share of the contracted value;0.074404;;;none;none
+Section 4;figures_cited_in_text;actions with a confirmed role status;617;;;none;none
+Section 4;figures_cited_in_text;actions with an unconfirmed role status | share;0.750401;;;none;none
+Section 5;figures_cited_in_text;schools with control actions;271;;;none;none
+Section 5;figures_cited_in_text;rules documented | share of the contracted value;0.643430;;;none;none
+Section 5;figures_cited_in_text;schools to which class 10.03 applies;72;;;none;none
+Section 5;figures_cited_in_text;schools with contracts to which class 10.03 applies;68;;;none;none
+Section 5;figures_cited_in_text;class 10.03 | share of the contracted value;0.240497;;;none;none
+Section 5;figures_cited_in_text;schools without control actions | share of the contracted value;0.116074;;;none;none
+Section 5;figures_cited_in_text;class 10.03 | priced contracts;291;;;none;none
+Section 5;figures_cited_in_text;schools without control actions | priced contracts;131;;;none;none
+Section 5;figures_cited_in_text;no document on the procedure | share of the contracted value;0.356570;;;none;none
+Section 6;figures_cited_in_text;statutory threshold under Art. 237b(1) | BGN;5000000;;;none;none
+Section 6;figures_cited_in_text;statutory threshold under Art. 237b(1) | EUR;2556459.41;;;none;none
+Section 6;figures_cited_in_text;EUR to BGN rate;1.95583;;;none;none
+Section 6;figures_cited_in_text;applicable contracts | share of the contracted value;0.394875;;;none;none
+Section 6;figures_cited_in_text;without Art. 237b control | share of the contracted value;0.393197;;;none;none
+Section 6;figures_cited_in_text;contracts without the Art. 237b condition;978;;;none;none
+Section 6;figures_cited_in_text;both indicators missing | share of the contracted value;0.360617;;;none;none
+Section 6;figures_cited_in_text;without Art. 237b control and with timely control before commitment | EUR excl VAT;914252.63;;;none;none
+Section 6;figures_cited_in_text;reports not linked to an applicable contract | EUR excl VAT;596839.39;;;none;none
+Section 6;figures_cited_in_text;schools without control when any report counts;115;;;none;none
+Section 7;figures_cited_in_text;statutory threshold for construction works from 2024 | BGN;80000;;;none;none
+Section 7;figures_cited_in_text;statutory threshold for Annex No. 2 services | BGN;100000;;;none;none
+Section 7;figures_cited_in_text;hypothetical illustration | direct purchase EUR;20000;;;none;none
+Section 7;figures_cited_in_text;hypothetical illustration | preceding purchases EUR;10000;;;none;none
+Section 7;figures_cited_in_text;threshold applied | EUR 15338.76;15338.76;;;none;none
+Section 7;figures_cited_in_text;threshold applied | EUR 25564.59;25564.59;;;none;none
+Section 7;figures_cited_in_text;threshold applied | EUR 40903.35;40903.35;;;none;none
+Section 7;figures_cited_in_text;contracts without a readable CPV code;482;;;none;none
+Section 7;figures_cited_in_text;assessed contracts;1027;;;none;none
+Section 7;figures_cited_in_text;cannot be assessed | share of the contracted value;0.116263;;;none;none
+Section 7;figures_cited_in_text;assessed direct awards;412;;;none;none
+Section 7;figures_cited_in_text;recorded direct awards;430;;;none;none
+Section 7;figures_cited_in_text;possible splitting | share of the contracted value;0.035537;;;none;none
+Section 7;figures_cited_in_text;possible splitting | median ratio, two decimals;1.73;;;none;none
+Section 7;figures_cited_in_text;possible splitting | equipment contracts;42;;;none;none
+Section 7;figures_cited_in_text;possible splitting | STEM project contracts;71;;;none;none
+Section 7;figures_cited_in_text;direct award at or above the threshold | share of the contracted value;0.019156;;;none;none
+Section 7;figures_cited_in_text;works document, non-works group | amount of each contract EUR;40443.19;;;none;none
+Section 7;figures_cited_in_text;contracts without a documented number of invitations;1383;;;none;none
+Section 7;figures_cited_in_text;ineligible subject code | contracts without amount;37;;;none;none
+Section 7;figures_cited_in_text;ineligible subject code | in the group services / ineligible;68;;;none;none
+Section 7;figures_cited_in_text;either mark | share of the contracted value;0.054693;;;none;none
+Section 10;figures_cited_in_text;Class 10.01: Commitment or payment without ex-ante control | applies contracts as a share of the assessed base;0.869534;;;none;none
+Section 10;figures_cited_in_text;Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | applies contracts as a share of the assessed base;0.995708;;;none;none
+Section 10;figures_cited_in_text;Class 10.03: Unestablished procedure for ex-ante control | applies contracts as a share of the assessed base;0.262780;;;none;none
+Section 10;figures_cited_in_text;Class 1.01: Splitting of procurements | applies contracts as a share of the assessed base;0.071081;;;none;none
+Section 10;figures_cited_in_text;Class 1.02: Direct award at a value requiring a call or procedure | applies contracts as a share of the assessed base;0.008763;;;none;none
+Section 10;figures_cited_in_text;Purchases from one supplier within 30 days, each below the threshold, together reaching it | applies contracts as a share of the assessed base;0.095973;;;none;none
+Section 10;figures_cited_in_text;Contract signed before the project start | applies contracts as a share of the assessed base;0.045416;;;none;none
+Section 10;figures_cited_in_text;Price just below BGN 50,000 (from 2024) | applies contracts as a share of the assessed base;0.027421;;;none;none
+Section 10;figures_cited_in_text;Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | applies contracts as a share of the assessed base;0.000857;;;none;none
+Section 10;figures_cited_in_text;Class 10.01: Commitment or payment without ex-ante control | lowest share of the assessed base among FID3-FID7;0.823034;;;none;none
+Section 10;figures_cited_in_text;Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | lowest share of the assessed base among FID3-FID7;0.987013;;;none;none
+Section 10;figures_cited_in_text;class 10.03 | schools to which the class applies as a share of the assessed schools;0.265683;;;none;none
+Section 10;figures_cited_in_text;class 10.03 | FID5 | assessed schools;6;;;none;none
+Section 10;figures_cited_in_text;class 10.03 | FID5 | schools without control actions;4;;;none;none
+Section 10;figures_cited_in_text;classes 1.01 and 1.02 | contracts that cannot be assessed;368;;;none;none
+Section 10;figures_cited_in_text;class 10.03 | schools without control actions;51;;;none;none
+Section 10;figures_cited_in_text;class 10.03 | contracts that cannot be assessed;143;;;none;none
+Section 10;figures_cited_in_text;class 10.04 | contracts that cannot be assessed;137;;;none;none
+Section 10;figures_cited_in_text;class 10.04 | contracts not applicable;47;;;none;none
+Section 10;figures_cited_in_text;class 10.04 | contracts not meeting the condition of Art. 237b;978;;;none;none
+Section 10;figures_cited_in_text;signals | contracts not linked to ISUN 2020;228;;;none;none
+Section 10;figures_cited_in_text;Class 10.01: Commitment or payment without ex-ante control | contracts to which it applies and which have no amount;156;;;none;none
+Section 10;figures_cited_in_text;Class 10.03: Unestablished procedure for ex-ante control | contracts to which it applies and which have no amount;38;;;none;none
+Section 10;figures_cited_in_text;Purchases from one supplier within 30 days, each below the threshold, together reaching it | contracts to which it applies and which have no amount;3;;;none;none
+Section 10;figures_cited_in_text;Contract signed before the project start | contracts to which it applies and which have no amount;1;;;none;none
+Section 3;figures_cited_in_text;sensitivity 2 (missing = timely) | share of contracts without timely control;0.078136;;;none;none
+Section 10;figures_cited_in_text;Class 10.01: Commitment or payment without ex-ante control | FID3 | applies contracts as a share of the assessed base;0.882353;;;none;none
+Section 10;figures_cited_in_text;Class 10.01: Commitment or payment without ex-ante control | FID4 | applies contracts as a share of the assessed base;0.912322;;;none;none
+Section 10;figures_cited_in_text;Class 10.01: Commitment or payment without ex-ante control | FID5 | applies contracts as a share of the assessed base;0.961538;;;none;none
+Section 10;figures_cited_in_text;Class 10.01: Commitment or payment without ex-ante control | FID6 | applies contracts as a share of the assessed base;0.954887;;;none;none
+Section 10;figures_cited_in_text;Class 10.01: Commitment or payment without ex-ante control | FID7 | applies contracts as a share of the assessed base;0.823034;;;none;none
+Section 10;figures_cited_in_text;Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID3 | applies contracts as a share of the assessed base;1.000000;;;none;none
+Section 10;figures_cited_in_text;Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID4 | applies contracts as a share of the assessed base;0.987013;;;none;none
+Section 10;figures_cited_in_text;Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID5 | applies contracts as a share of the assessed base;1.000000;;;none;none
+Section 10;figures_cited_in_text;Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID6 | applies contracts as a share of the assessed base;1.000000;;;none;none
+Section 10;figures_cited_in_text;Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID7 | applies contracts as a share of the assessed base;1.000000;;;none;none
+Section 10;figures_cited_in_text;Class 1.01: Splitting of procurements | FID3 | applies contracts as a share of the assessed base;0.029851;;;none;none
+Section 10;figures_cited_in_text;Class 1.01: Splitting of procurements | FID4 | applies contracts as a share of the assessed base;0.059016;;;none;none
+Section 10;figures_cited_in_text;Class 1.01: Splitting of procurements | FID5 | applies contracts as a share of the assessed base;0.000000;;;none;none
+Section 10;figures_cited_in_text;Class 1.01: Splitting of procurements | FID6 | applies contracts as a share of the assessed base;0.067961;;;none;none
+Section 10;figures_cited_in_text;Class 1.01: Splitting of procurements | FID7 | applies contracts as a share of the assessed base;0.085981;;;none;none
+Section 10;figures_cited_in_text;Class 1.02: Direct award at a value requiring a call or procedure | FID3 | applies contracts as a share of the assessed base;0.000000;;;none;none
+Section 10;figures_cited_in_text;Class 1.02: Direct award at a value requiring a call or procedure | FID4 | applies contracts as a share of the assessed base;0.016393;;;none;none
+Section 10;figures_cited_in_text;Class 1.02: Direct award at a value requiring a call or procedure | FID5 | applies contracts as a share of the assessed base;0.000000;;;none;none
+Section 10;figures_cited_in_text;Class 1.02: Direct award at a value requiring a call or procedure | FID6 | applies contracts as a share of the assessed base;0.009709;;;none;none
+Section 10;figures_cited_in_text;Class 1.02: Direct award at a value requiring a call or procedure | FID7 | applies contracts as a share of the assessed base;0.005607;;;none;none
+Section 10;figures_cited_in_text;Class 10.03: Unestablished procedure for ex-ante control | FID3 | schools to which the class applies as a share of the assessed schools;0.173913;;;none;none
+Section 10;figures_cited_in_text;Class 10.03: Unestablished procedure for ex-ante control | FID4 | schools to which the class applies as a share of the assessed schools;0.402299;;;none;none
+Section 10;figures_cited_in_text;Class 10.03: Unestablished procedure for ex-ante control | FID5 | schools to which the class applies as a share of the assessed schools;0.000000;;;none;none
+Section 10;figures_cited_in_text;Class 10.03: Unestablished procedure for ex-ante control | FID6 | schools to which the class applies as a share of the assessed schools;0.333333;;;none;none
+Section 10;figures_cited_in_text;Class 10.03: Unestablished procedure for ex-ante control | FID7 | schools to which the class applies as a share of the assessed schools;0.184000;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.01: Commitment or payment without ex-ante control | FID3 | contracts to which it applies;90;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.01: Commitment or payment without ex-ante control | FID3 | contracts in the assessed base;102;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.01: Commitment or payment without ex-ante control | FID3 | EUR excl VAT;2424115.86;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.01: Commitment or payment without ex-ante control | FID4 | contracts to which it applies;385;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.01: Commitment or payment without ex-ante control | FID4 | contracts in the assessed base;422;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.01: Commitment or payment without ex-ante control | FID4 | EUR excl VAT;7651982.90;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.01: Commitment or payment without ex-ante control | FID5 | contracts to which it applies;25;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.01: Commitment or payment without ex-ante control | FID5 | contracts in the assessed base;26;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.01: Commitment or payment without ex-ante control | FID5 | EUR excl VAT;515824.65;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.01: Commitment or payment without ex-ante control | FID6 | contracts to which it applies;127;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.01: Commitment or payment without ex-ante control | FID6 | contracts in the assessed base;133;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.01: Commitment or payment without ex-ante control | FID6 | EUR excl VAT;2518869.29;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.01: Commitment or payment without ex-ante control | FID7 | contracts to which it applies;586;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.01: Commitment or payment without ex-ante control | FID7 | contracts in the assessed base;712;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.01: Commitment or payment without ex-ante control | FID7 | EUR excl VAT;11720371.59;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID3 | contracts to which it applies;16;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID3 | contracts in the assessed base;16;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID3 | EUR excl VAT;884479.03;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID4 | contracts to which it applies;76;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID4 | contracts in the assessed base;77;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID4 | EUR excl VAT;3799712.40;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID5 | contracts to which it applies;2;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID5 | contracts in the assessed base;2;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID5 | EUR excl VAT;165593.83;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID6 | contracts to which it applies;19;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID6 | contracts in the assessed base;19;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID6 | EUR excl VAT;995058.02;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID7 | contracts to which it applies;119;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID7 | contracts in the assessed base;119;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID7 | EUR excl VAT;5189092.56;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID3 | contracts to which it applies;24;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID3 | contracts in the assessed base;88;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID3 | EUR excl VAT;357096.97;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID4 | contracts to which it applies;153;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID4 | contracts in the assessed base;395;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID4 | EUR excl VAT;3406787.44;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID6 | contracts to which it applies;46;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID6 | contracts in the assessed base;111;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID6 | EUR excl VAT;920973.95;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID7 | contracts to which it applies;106;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID7 | contracts in the assessed base;632;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID7 | EUR excl VAT;2064000.62;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.01: Splitting of procurements | FID3 | contracts to which it applies;2;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.01: Splitting of procurements | FID3 | contracts in the assessed base;67;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.01: Splitting of procurements | FID3 | EUR excl VAT;42446.62;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.01: Splitting of procurements | FID4 | contracts to which it applies;18;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.01: Splitting of procurements | FID4 | contracts in the assessed base;305;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.01: Splitting of procurements | FID4 | EUR excl VAT;311820.23;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.01: Splitting of procurements | FID5 | contracts to which it applies;0;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.01: Splitting of procurements | FID5 | contracts in the assessed base;17;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.01: Splitting of procurements | FID6 | contracts to which it applies;7;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.01: Splitting of procurements | FID6 | contracts in the assessed base;103;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.01: Splitting of procurements | FID6 | EUR excl VAT;90309.72;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.01: Splitting of procurements | FID7 | contracts to which it applies;46;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.01: Splitting of procurements | FID7 | contracts in the assessed base;535;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.01: Splitting of procurements | FID7 | EUR excl VAT;552671.57;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.02: Direct award at a value requiring a call or procedure | FID3 | contracts to which it applies;0;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.02: Direct award at a value requiring a call or procedure | FID3 | contracts in the assessed base;67;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.02: Direct award at a value requiring a call or procedure | FID4 | contracts to which it applies;5;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.02: Direct award at a value requiring a call or procedure | FID4 | contracts in the assessed base;305;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.02: Direct award at a value requiring a call or procedure | FID4 | EUR excl VAT;207952.01;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.02: Direct award at a value requiring a call or procedure | FID5 | contracts to which it applies;0;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.02: Direct award at a value requiring a call or procedure | FID5 | contracts in the assessed base;17;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.02: Direct award at a value requiring a call or procedure | FID6 | contracts to which it applies;1;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.02: Direct award at a value requiring a call or procedure | FID6 | contracts in the assessed base;103;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.02: Direct award at a value requiring a call or procedure | FID6 | EUR excl VAT;30000.00;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.02: Direct award at a value requiring a call or procedure | FID7 | contracts to which it applies;3;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.02: Direct award at a value requiring a call or procedure | FID7 | contracts in the assessed base;535;;;none;none
+Section 10;figures_cited_in_text;text | Class 1.02: Direct award at a value requiring a call or procedure | FID7 | EUR excl VAT;299607.85;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID3 | schools to which the class applies;4;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID3 | assessed schools;23;;;none;none
+Section 10;figures_cited_in_text;text | FID3 | schools;29;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID4 | schools to which the class applies;35;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID4 | assessed schools;87;;;none;none
+Section 10;figures_cited_in_text;text | FID4 | schools;101;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID5 | schools to which the class applies;0;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID5 | assessed schools;6;;;none;none
+Section 10;figures_cited_in_text;text | FID5 | schools;10;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID6 | schools to which the class applies;10;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID6 | assessed schools;30;;;none;none
+Section 10;figures_cited_in_text;text | FID6 | schools;36;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID7 | schools to which the class applies;23;;;none;none
+Section 10;figures_cited_in_text;text | Class 10.03: Unestablished procedure for ex-ante control | FID7 | assessed schools;125;;;none;none
+Section 10;figures_cited_in_text;text | FID7 | schools;146;;;none;none
+Section 10;figures_cited_in_text;text | FID5 | contracts;26;;;none;none
+Section 10;figures_cited_in_text;text | FID7 | contracts;712;;;none;none
+Section 10;figures_cited_in_text;text | FID4 | applicable contracts with documented control under Art. 237b PPA;1;;;none;none
+Section 10;figures_cited_in_text;text | schools in the Varna region;92;;;none;none
+Section 10;figures_cited_in_text;text | directorates compared;5;;;none;none
+Section 10;figures_cited_in_text;text | directorates with class 10.03 recorded;4;;;none;none
+Section 10;figures_cited_in_text;text | contracts linked to ISUN 2020;1167;;;none;none
+Section 10;figures_cited_in_text;text | Purchases from one supplier within 30 days, each below the threshold, together reaching it | contracts with the signal;112;;;none;none
+Section 10;figures_cited_in_text;text | Purchases from one supplier within 30 days, each below the threshold, together reaching it | EUR excl VAT;1726574.79;;;none;none
+Section 10;figures_cited_in_text;text | Contract signed before the project start | contracts with the signal;53;;;none;none
+Section 10;figures_cited_in_text;text | Contract signed before the project start | EUR excl VAT;1003841.38;;;none;none
+Section 10;figures_cited_in_text;text | Price just below BGN 50,000 (from 2024) | contracts with the signal;32;;;none;none
+Section 10;figures_cited_in_text;text | Price just below BGN 50,000 (from 2024) | EUR excl VAT;758682.90;;;none;none
+Section 10;figures_cited_in_text;text | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | contracts with the signal;1;;;none;none
+Section 10;figures_cited_in_text;text | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | EUR excl VAT;21813.09;;;none;none
+Section 10;figures_cited_in_text;text | public-data signals compared;4;;;none;none
+Section 10;figures_cited_in_text;text | Purchases from one supplier within 30 days, each below the threshold, together reaching it | figure in the name of the signal | 30 days;30;;;none;none
+Section 10;figures_cited_in_text;text | Price just below BGN 50,000 (from 2024) | figure in the name of the signal | BGN 50,000;50,000;;;none;none
+Section 10;figures_cited_in_text;text | Price just below BGN 50,000 (from 2024) | figure in the name of the signal | from 2024;2024;;;none;none
+Section 10;figures_cited_in_text;text | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | figure in the name of the signal | BGN 30,000;30,000;;;none;none
+Section 10;figures_cited_in_text;text | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | figure in the name of the signal | below 50,000;50,000;;;none;none
+Section 10;figures_cited_in_text;text | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | figure in the name of the signal | up to 2023;2023;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID3 | pairs with a violation;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID3 | report and class pairs;3;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID4 | pairs with a violation;2;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID4 | report and class pairs;2;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID5 | pairs with a violation;1;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID5 | report and class pairs;2;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID6 | pairs with a violation;1;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID6 | report and class pairs;1;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID7 | pairs with a violation;2;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID7 | report and class pairs;2;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID3-FID7 | pairs with a violation;6;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.01: Commitment or payment without ex-ante control | FID3-FID7 | report and class pairs;10;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID3 | pairs with a violation;1;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID3 | report and class pairs;1;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID4 | pairs with a violation;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID4 | report and class pairs;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID5 | pairs with a violation;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID5 | report and class pairs;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID6 | pairs with a violation;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID6 | report and class pairs;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID7 | pairs with a violation;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID7 | report and class pairs;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID3-FID7 | pairs with a violation;1;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.03: Unestablished procedure for ex-ante control | FID3-FID7 | report and class pairs;1;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID3 | pairs with a violation;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID3 | report and class pairs;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID4 | pairs with a violation;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID4 | report and class pairs;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID5 | pairs with a violation;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID5 | report and class pairs;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID6 | pairs with a violation;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID6 | report and class pairs;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID7 | pairs with a violation;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID7 | report and class pairs;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID3-FID7 | pairs with a violation;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID3-FID7 | report and class pairs;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.01: Splitting of procurements | FID3 | pairs with a violation;3;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.01: Splitting of procurements | FID3 | report and class pairs;3;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.01: Splitting of procurements | FID4 | pairs with a violation;2;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.01: Splitting of procurements | FID4 | report and class pairs;3;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.01: Splitting of procurements | FID5 | pairs with a violation;2;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.01: Splitting of procurements | FID5 | report and class pairs;2;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.01: Splitting of procurements | FID6 | pairs with a violation;1;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.01: Splitting of procurements | FID6 | report and class pairs;2;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.01: Splitting of procurements | FID7 | pairs with a violation;2;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.01: Splitting of procurements | FID7 | report and class pairs;2;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.01: Splitting of procurements | FID3-FID7 | pairs with a violation;10;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.01: Splitting of procurements | FID3-FID7 | report and class pairs;12;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID3 | pairs with a violation;3;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID3 | report and class pairs;6;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID4 | pairs with a violation;1;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID4 | report and class pairs;1;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID5 | pairs with a violation;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID5 | report and class pairs;0;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID6 | pairs with a violation;1;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID6 | report and class pairs;1;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID7 | pairs with a violation;3;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID7 | report and class pairs;4;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID3-FID7 | pairs with a violation;8;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | Class 1.02: Direct award at a value requiring a call or procedure | FID3-FID7 | report and class pairs;12;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | FID5 | practices without a case;3;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | inspection reports on schools;560;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | first publication date;2024-08-01;;;none;none
+Section 10;figures_cited_in_text;text | ADFI reports | last publication date;2026-10-09;;;none;none
+Section 10;figures_cited_in_text;text | first contract date;2023-01-01;;;none;none
+Section 10;figures_cited_in_text;text | last contract date;2026-10-02;;;none;none
+Section 10;figures_cited_in_text;text | limits | checklists before commitment;1328;;;none;none
+Section 10;figures_cited_in_text;text | limits | checklists before commitment that name no contract;853;;;none;none
+Section 10;figures_cited_in_text;text | limits | checklists before expenditure;1146;;;none;none
+Section 10;figures_cited_in_text;text | limits | checklists before expenditure that name no contract;691;;;none;none
+Section 10;figures_cited_in_text;text | limits | checklists under Art. 237b PPA;18;;;none;none
+Section 10;figures_cited_in_text;text | limits | checklists under Art. 237b PPA that name no contract;12;;;none;none
+Section 10;figures_cited_in_text;text | limits | checklists counted as timely without a raw date;136;;;none;none
+Section 10;figures_cited_in_text;text | limits | control actions with an unconfirmed role status;1870;;;none;none
+Section 10;figures_cited_in_text;text | limits | contracts without a documented amount;162;;;none;none
+Section 10;figures_cited_in_text;text | H1b | classes with confirmed differences between the directorates;3;;;none;none
+Section 10;figures_cited_in_text;text | H1b | class 3.02 | standard in the class name | 27001;27001;;;none;none
+Section 10;figures_cited_in_text;text | H1b | class 3.02 | standard in the class name | 27701;27701;;;none;none
+Section 10;figures_cited_in_text;text | H1b | class 3.02 | standard in the class name | 20000-1;20000-1;;;none;none
+Section 10;figures_cited_in_text;text | H1b | class 3.03 | standard in the class name | 9001;9001;;;none;none
+Section 10;figures_cited_in_text;text | H1b | class 3.03 | standard in the class name | 14001;14001;;;none;none
+Section 10;figures_cited_in_text;text | H1b | class 3.03 | standard in the class name | 45001;45001;;;none;none
+Section 10;directorate_comparison;ADFI reports | columns holding an amount;0;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 2 | schools;322;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 2 | schools with a contract;278;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 2 | contracts;1395;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 2 | contracted EUR excl VAT;28062137.01;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 2 | national schools with a contract;2222;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 2 | schools with a contract as a share of the national schools;0.125113;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 3 | contracts without a timely documented checklist before commitment;1213;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 3 | contracts without a timely documented checklist before commitment | EUR excl VAT;24831164.29;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 4 | formal checklists;599;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 4 | formal checklists as a share of the assessed actions;0.623958;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 4 | contracts with a timely checklist before commitment that is not formal;136;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 4 | timely checklist before commitment that is not formal | EUR excl VAT;2087933.76;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 4 | actions with combined roles;16;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 4 | actions with a confirmed role status;617;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 5 | schools with rules documented;199;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 5 | contracts of the schools without documented rules;329;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 5 | contracts of the schools without documented rules | EUR excl VAT;6748858.98;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 6 | applicable contracts;233;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 6 | applicable contracts without documented control;232;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 6 | applicable contracts without documented control | EUR excl VAT;11033935.84;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 6 | schools with an applicable contract;122;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 6 | schools without control;121;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 6 | contracts without both controls;206;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 6 | contracts without both controls | EUR excl VAT;10119683.21;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 7 | possible splitting contracts;73;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 7 | possible splitting | EUR excl VAT;997248.14;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 7 | direct awards at or above the threshold;9;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 7 | direct awards at or above the threshold | EUR excl VAT;537559.86;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 8 | contracts with a linked action before expenditure;274;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 8 | contracts with a checklist before expenditure;264;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 8 | checklist before expenditure without documented control before commitment;212;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 8 | checklist before expenditure without documented control before commitment | EUR excl VAT;4757917.71;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 8 | checklist before expenditure without either control;218;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 8 | checklist before expenditure without either control | EUR excl VAT;5058426.50;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 8 | payment records | confirmed order;11;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 8 | payment records | reversed order;181;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 8 | payment records | order not verifiable;1338;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 8 | linked payment records of these contracts;1530;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 9 | Class 10.01: Commitment or payment without ex-ante control | no record before commitment;1116;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 9 | Class 10.01: Commitment or payment without ex-ante control | no record before commitment | EUR excl VAT;22444719.91;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 9 | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | no record before commitment;193;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 9 | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | no record before commitment | EUR excl VAT;9381866.84;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 9 | classes measured;5;;;none;none
+Section 10;figures_cited_in_text;evidence chain | Section 9 | classes in the scope of the study;52;;;none;none
+Section 10;figures_cited_in_text;limits | control actions without a formality assessment;1532;;;none;none
+Section 10;figures_cited_in_text;limits | control actions;2492;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 10.01: Commitment or payment without ex-ante control | FID3 | share / applies / base / cannot be assessed;0.882353 / 90 / 102 / 0;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 10.01: Commitment or payment without ex-ante control | FID4 | share / applies / base / cannot be assessed;0.912322 / 385 / 422 / 0;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 10.01: Commitment or payment without ex-ante control | FID5 | share / applies / base / cannot be assessed;0.961538 / 25 / 26 / 0;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 10.01: Commitment or payment without ex-ante control | FID6 | share / applies / base / cannot be assessed;0.954887 / 127 / 133 / 0;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 10.01: Commitment or payment without ex-ante control | FID7 | share / applies / base / cannot be assessed;0.823034 / 586 / 712 / 0;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 10.03: Unestablished procedure for ex-ante control | FID3 | share / applies / base / cannot be assessed;0.173913 / 4 / 23 / 6;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 10.03: Unestablished procedure for ex-ante control | FID4 | share / applies / base / cannot be assessed;0.402299 / 35 / 87 / 14;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 10.03: Unestablished procedure for ex-ante control | FID5 | share / applies / base / cannot be assessed;0.000000 / 0 / 6 / 4;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 10.03: Unestablished procedure for ex-ante control | FID6 | share / applies / base / cannot be assessed;0.333333 / 10 / 30 / 6;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 10.03: Unestablished procedure for ex-ante control | FID7 | share / applies / base / cannot be assessed;0.184000 / 23 / 125 / 21;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID3 | share / applies / base / cannot be assessed;1.000000 / 16 / 16 / 13;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID4 | share / applies / base / cannot be assessed;0.987013 / 76 / 77 / 48;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID5 | share / applies / base / cannot be assessed;1.000000 / 2 / 2 / 4;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID6 | share / applies / base / cannot be assessed;1.000000 / 19 / 19 / 16;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 10.04: Unperformed ex-ante control for legality of a procurement above the threshold | FID7 | share / applies / base / cannot be assessed;1.000000 / 119 / 119 / 56;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 1.01: Splitting of procurements | FID3 | share / applies / base / cannot be assessed;0.029851 / 2 / 67 / 35;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 1.01: Splitting of procurements | FID4 | share / applies / base / cannot be assessed;0.059016 / 18 / 305 / 117;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 1.01: Splitting of procurements | FID5 | share / applies / base / cannot be assessed;0.000000 / 0 / 17 / 9;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 1.01: Splitting of procurements | FID6 | share / applies / base / cannot be assessed;0.067961 / 7 / 103 / 30;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 1.01: Splitting of procurements | FID7 | share / applies / base / cannot be assessed;0.085981 / 46 / 535 / 177;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 1.02: Direct award at a value requiring a call or procedure | FID3 | share / applies / base / cannot be assessed;0.000000 / 0 / 67 / 35;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 1.02: Direct award at a value requiring a call or procedure | FID4 | share / applies / base / cannot be assessed;0.016393 / 5 / 305 / 117;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 1.02: Direct award at a value requiring a call or procedure | FID5 | share / applies / base / cannot be assessed;0.000000 / 0 / 17 / 9;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 1.02: Direct award at a value requiring a call or procedure | FID6 | share / applies / base / cannot be assessed;0.009709 / 1 / 103 / 30;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Class 1.02: Direct award at a value requiring a call or procedure | FID7 | share / applies / base / cannot be assessed;0.005607 / 3 / 535 / 177;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Purchases from one supplier within 30 days, each below the threshold, together reaching it | FID3 | share / applies / base / cannot be assessed;0.101266 / 8 / 79 / 23;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Purchases from one supplier within 30 days, each below the threshold, together reaching it | FID4 | share / applies / base / cannot be assessed;0.123839 / 40 / 323 / 99;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Purchases from one supplier within 30 days, each below the threshold, together reaching it | FID5 | share / applies / base / cannot be assessed;0.000000 / 0 / 22 / 4;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Purchases from one supplier within 30 days, each below the threshold, together reaching it | FID6 | share / applies / base / cannot be assessed;0.071429 / 8 / 112 / 21;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Purchases from one supplier within 30 days, each below the threshold, together reaching it | FID7 | share / applies / base / cannot be assessed;0.088748 / 56 / 631 / 81;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Contract signed before the project start | FID3 | share / applies / base / cannot be assessed;0.075949 / 6 / 79 / 23;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Contract signed before the project start | FID4 | share / applies / base / cannot be assessed;0.034056 / 11 / 323 / 99;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Contract signed before the project start | FID5 | share / applies / base / cannot be assessed;0.000000 / 0 / 22 / 4;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Contract signed before the project start | FID6 | share / applies / base / cannot be assessed;0.080357 / 9 / 112 / 21;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Contract signed before the project start | FID7 | share / applies / base / cannot be assessed;0.042789 / 27 / 631 / 81;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Price just below BGN 50,000 (from 2024) | FID3 | share / applies / base / cannot be assessed;0.050633 / 4 / 79 / 23;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Price just below BGN 50,000 (from 2024) | FID4 | share / applies / base / cannot be assessed;0.018576 / 6 / 323 / 99;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Price just below BGN 50,000 (from 2024) | FID5 | share / applies / base / cannot be assessed;0.000000 / 0 / 22 / 4;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Price just below BGN 50,000 (from 2024) | FID6 | share / applies / base / cannot be assessed;0.035714 / 4 / 112 / 21;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Price just below BGN 50,000 (from 2024) | FID7 | share / applies / base / cannot be assessed;0.028526 / 18 / 631 / 81;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | FID3 | share / applies / base / cannot be assessed;0.000000 / 0 / 79 / 23;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | FID4 | share / applies / base / cannot be assessed;0.000000 / 0 / 323 / 99;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | FID5 | share / applies / base / cannot be assessed;0.000000 / 0 / 22 / 4;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | FID6 | share / applies / base / cannot be assessed;0.008929 / 1 / 112 / 21;;;none;none
+Section 10;directorate_comparison;figure F9 | panel A | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | FID7 | share / applies / base / cannot be assessed;0.000000 / 0 / 631 / 81;;;none;none
