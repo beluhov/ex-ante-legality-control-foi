@@ -1,0 +1,38 @@
+file;size_bytes;sha256;source;date
+.gitattributes;2577;fbee2b2a1d052d3a0beb59599d2d5b294c757a728f18be5359a31d026bb45dfd;Git attributes (line endings kept as written);2026-11-26
+.gitignore;7020;b97d1fccbd83042d3393f8d7467cb29e43c3fe0c5dee3defdbb863245adb441e;Files excluded from the repository;2026-11-26
+data/00_ЗДОИ_stats_oblasti.csv;1582;b36b7d1ea06ee4d96cfcd3b339be76d257da0df5f840a034c0219e67e289cbb2;"Copy of the pseudonymized table of database 07; SHA-256 equals the value in source_manifest_07.json";2026-11-26
+data/00_ЗДОИ_stats_uchilishta.csv;126987;8495a36d659f0681f49d64b34a1770ea7d4f2cde398b2c4bbe4258d4b679d115;"Copy of the pseudonymized table of database 07; SHA-256 equals the value in source_manifest_07.json";2026-11-26
+data/adfi_classification.csv;977933;5b7aa7a71f373917276828d85856133a292ba37467939da734971c199dc04e0f;Copied from adfi-violations-classification@c9bd90d;2026-11-26
+data/adfi_reports_meta.csv;214462;fb0913ce014ae9d01837277ed959f39f09ab6b6f4bb874be9802892392208bb1;Copied from adfi-violations-classification@c9bd90d;2026-11-26
+data/classifier_checks.csv;11734765;b6aa447ddf77ef0cd7ddce9cdd393094e1420728cb9b2553f231008e0ad7a6b7;"Copy of the pseudonymized table of database 07; SHA-256 equals the value in source_manifest_07.json";2026-11-26
+data/classifier_classes.csv;14491;04e1bd91a696a241c544ca6c4c2bc6db2fe21d2a71a84f151db5359a59391c39;Copied from adfi-violations-classification@c9bd90d;2026-11-26
+data/contracts.csv;1896476;311996d80693de11d7395c21d700bb5c005cf10a71e7c7f288dcd6546e085013;"Copy of the pseudonymized table of database 07; SHA-256 equals the value in source_manifest_07.json; 59 cells in 58 rows masked by hand on 2026-11-23 (source_manifest_07.json)";2026-11-26
+data/control_actions.csv;1329987;0fe0564152ff27d90d428a646223da616b26b24e9ab3ef8c3badcf5905051bbe;"Copy of the pseudonymized table of database 07; SHA-256 equals the value in source_manifest_07.json";2026-11-26
+data/derived/conclusions_summary.csv;146568;5de68a16a449dbd132c6c0b366ae9b0f628a75ab07ee510665850b51b27b4d70;Table written by this notebook (all results, Sections 1 to 11);2026-11-26
+data/derived/foi_coverage_by_region.csv;738;d47438476601a1f9183a90fa6c8ff4d2fb3be29615035bdaa21185bee0ab2c64;Table written by this notebook (Section 2);2026-11-26
+data/derived/T11_conclusions.csv;12785;71511cdc41588971d05ee981c78bbbb54e4245ba791f95dbc1eecec5efcb96aa;Table written by this notebook (Section 11);2026-11-26
+data/derived/T1_h3_pre_commitment.csv;3808;68cf6e7ecda63b98bdcca069a91b2fd8927ad116f0485a450dddbece03d30d07;Table written by this notebook (Section 3);2026-11-26
+data/derived/T2_pre_payment_asymmetry.csv;1083;38083f22230205b5554c6e3dbd6fdffaa7ebe565866e8478e2e52c9e2139ca78;Table written by this notebook (Section 8);2026-11-26
+data/derived/T3_caught_missed_practices.csv;5033;7e587fcd6376f42b727af7a9a5002d676da9b53ffaa0f701e88d00c6a86c5623;Table written by this notebook (Section 9);2026-11-26
+data/e2_conclusions_summary.csv;17771;dd878c4d28e2a1999ace26fe242b54a0faa5d93afe05982279530c33565d4eb5;Copied from stem-public-data-indicators@bcb7a10 (data/derived/conclusions_summary.csv);2026-11-26
+data/execution_payments.csv;2306045;ce9f5775d9cfdda45bf6a9de3b9eb2c56c70802100b42bb6ac692d4ac7512b08;"Copy of the pseudonymized table of database 07; SHA-256 equals the value in source_manifest_07.json";2026-11-26
+data/practice_codebook.csv;47321;1a12e4f5e25df6716a1ee25251cf8b705ce59217f06e35c63c7f6761d72f24ef;"Copy of the pseudonymized table of database 07; SHA-256 equals the value in source_manifest_07.json";2026-11-26
+data/project_budgets.csv;26506;ec08a10f93190d97b036e60675047ed5653343c022d1330a5d712c828bd5a93a;"Copy of the pseudonymized table of database 07; SHA-256 equals the value in source_manifest_07.json";2026-11-26
+data/schools.csv;74348;0bc6d5766cc387693bc4be9bf4e1f92593cd181542c034097994ac2e9babc5c5;"Copy of the pseudonymized table of database 07; SHA-256 equals the value in source_manifest_07.json";2026-11-26
+data/source_manifest_07.json;26648;2a95881e18efea2339170fa9ba3a126bdea0379e3545163b924db4a01416669e;Record of the construction of the tables of database 07: transformation, row counts, SHA-256 of the tables;2026-11-26
+fig/F0_foi_provided_by_region.png;162424;0a30050fe2725f7602956a71fabaa0facc31a6b8ca9c5709d054d389bbd43ae4;Figure drawn by this notebook (Section 1.1);2026-11-26
+fig/F1_corpus_schools_and_value_by_region.png;138286;96c1ff31b5cfaa11a8d711d3f3541d046c5060ea4ee744f4d85575038d830ae0;Figure drawn by this notebook (Section 2);2026-11-26
+fig/F2_h3_pre_commitment_control.png;230616;09c01430f3baa9fd9ea5e30cacb53fe953d4e04629b79939a136a8f8a1c8c40b;Figure drawn by this notebook (Section 3);2026-11-26
+fig/F5_art237b_ex_ante_control.png;175816;9135e6304006f4f95bc636153361b2198622348661414f6605a80d7ecaa029b2;Figure drawn by this notebook (Section 6);2026-11-26
+fig/F6_direct_awards_splitting.png;293621;91f8104772cc9699834eba4f84407ad1e411d8101e39317333b7b5f1651280de;Figure drawn by this notebook (Section 7);2026-11-26
+fig/F7_pre_payment_asymmetry.png;196355;95b344f5376126deb83520e7786130f6499f33ab81e8b354aac1246632ee853a;Figure drawn by this notebook (Section 8);2026-11-26
+fig/F8_caught_missed_practices.png;1315107;51cc91d6a754a5f92d2866104fe6c871b9b2b963379aa52eaab55c487a7a8d98;Figure drawn by this notebook (Section 9);2026-11-26
+fig/F9_directorate_comparison.png;1098182;40d71141bcf7c7e16f77ce6a1281b8ca17feafacad39169d1970401011815514;Figure drawn by this notebook (Section 10);2026-11-26
+FOI_ExAnte_Legality_Control.ipynb;2252775;30de8f591535ee044dc6f8bde97add896e24fc8518a149ef0396612f72a7403b;The notebook of the study, with outputs;2026-11-26
+LICENSE.txt;1093;fcfb9deb0e8bcac5f9aa8a268ae336003e49ff97789bf998895fe24e327f7b17;MIT licence;2026-11-26
+README.md;18013;3a662990bc255db29ec7c303556cbe640f3974094eebe032221a2801f3e98110;Repository documentation;2026-11-26
+requirements.txt;197;86d470d4732cacf2ec6a0aaa1eac2193f2c00d17cec4474f728be66c4ae6764f;Pinned Python dependencies;2026-11-26
+EXTERNAL:07_documents_under_ZDOI;0;2a95881e18efea2339170fa9ba3a126bdea0379e3545163b924db4a01416669e;"Original documents obtained under the Access to Public Information Act from 322 schools, held in database 07 (not copied); described by data/source_manifest_07.json, whose SHA-256 is given; the pseudonymization key is not published";2026-11-26
+EXTERNAL:E1@c9bd90d;0;c9bd90da4d8172e914380a66034bfa8ec9520012;Upstream Git commit PIN (adfi-violations-classification);2026-11-26
+EXTERNAL:E2@bcb7a10;0;bcb7a102a51cd856ee9f3353ad5d50c4ebe53ba1;Upstream Git commit PIN (stem-public-data-indicators);2026-11-26

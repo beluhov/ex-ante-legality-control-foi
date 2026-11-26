@@ -157,10 +157,10 @@ Section 8;pre_payment_asymmetry;dates: payment_order_date (payment records in th
 Section 8;pre_payment_asymmetry;dates: invoice_date (payment records in the chain) | records / YYYY-MM-DD / other format / not documented;1530 / 942 / 30 / 558;;;none;none
 Section 8;pre_payment_asymmetry;dates: handover_protocol_date (payment records in the chain) | records / YYYY-MM-DD / other format / not documented;1530 / 307 / 6 / 1217;;;none;none
 Section 8;pre_payment_asymmetry;payment_amount | numeric records / linked records / maximum;2006 / 4273 / 1000012348.00;;;none;none
-Section 8;pre_payment_asymmetry;control point: Before the award decision: control under Art. 237b PPA (Indicator 2) | Documented | contracts / EUR excl VAT;1 / 47092.68;;;none;none
-Section 8;pre_payment_asymmetry;control point: Before the award decision: control under Art. 237b PPA (Indicator 2) | Not documented (missing or late) | contracts / EUR excl VAT;46 / 2519769.53;;;none;none
-Section 8;pre_payment_asymmetry;control point: Before the award decision: control under Art. 237b PPA (Indicator 2) | Art. 237b PPA does not apply | contracts / EUR excl VAT;218 / 3390428.02;;;none;none
-Section 8;pre_payment_asymmetry;control point: Before the award decision: control under Art. 237b PPA (Indicator 2) | Cannot be assessed | contracts / EUR excl VAT;9 / 0.00;;;none;none
+Section 8;pre_payment_asymmetry;control point: Control under Art. 237b PPA (Indicator 2) | Documented | contracts / EUR excl VAT;1 / 47092.68;;;none;none
+Section 8;pre_payment_asymmetry;control point: Control under Art. 237b PPA (Indicator 2) | Not documented (missing or late) | contracts / EUR excl VAT;46 / 2519769.53;;;none;none
+Section 8;pre_payment_asymmetry;control point: Control under Art. 237b PPA (Indicator 2) | Art. 237b PPA does not apply | contracts / EUR excl VAT;218 / 3390428.02;;;none;none
+Section 8;pre_payment_asymmetry;control point: Control under Art. 237b PPA (Indicator 2) | Cannot be assessed | contracts / EUR excl VAT;9 / 0.00;;;none;none
 Section 8;pre_payment_asymmetry;control point: Before commitment: timely checklist (Indicator 1) | Documented | contracts / EUR excl VAT;54 / 1031235.85;;;none;none
 Section 8;pre_payment_asymmetry;control point: Before commitment: timely checklist (Indicator 1) | Not documented (missing or late) | contracts / EUR excl VAT;220 / 4926054.38;;;none;none
 Section 8;pre_payment_asymmetry;control point: Before commitment: timely checklist (Indicator 1) | Art. 237b PPA does not apply | contracts / EUR excl VAT;0 / 0.00;;;none;none
@@ -758,3 +758,37 @@ Section 10;directorate_comparison;figure F9 | panel A | Direct award of BGN 30,0
 Section 10;directorate_comparison;figure F9 | panel A | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | FID5 | share / applies / base / cannot be assessed;0.000000 / 0 / 22 / 4;;;none;none
 Section 10;directorate_comparison;figure F9 | panel A | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | FID6 | share / applies / base / cannot be assessed;0.008929 / 1 / 112 / 21;;;none;none
 Section 10;directorate_comparison;figure F9 | panel A | Direct award of BGN 30,000 to below 50,000 (up to 2023) although a call or procedure was required | FID7 | share / applies / base / cannot be assessed;0.000000 / 0 / 631 / 81;;;none;none
+Section 11;derived_for_text;class 10.01 contracts, main rule;1213;;;none;none
+Section 11;derived_for_text;class 10.01 contracts, sensitivity 2;109;;;none;none
+Section 11;derived_for_text;H3 specifications with a confirmed decision;16;;;none;none
+Section 11;derived_for_text;priced contracts;1233;;;none;none
+Section 11;derived_for_text;formal last checklist before expenditure, contracts;206;;;none;none
+Section 11;derived_for_text;formal checklists, assessed control actions;960;;;none;none
+Section 11;derived_for_text;role status confirmed, control actions;617;;;none;none
+Section 11;derived_for_text;refusals recorded, control actions;12;;;none;none
+Section 11;derived_for_text;schools with control actions;271;;;none;none
+Section 11;derived_for_text;class 10.03 schools;72;;;none;none
+Section 11;derived_for_text;class 10.03 share of the contracted value;0.240497;;;none;none
+Section 11;derived_for_text;applicable contracts with documented control under Art. 237b PPA;1;;;none;none
+Section 11;derived_for_text;applicable contracts share of the contracted value;0.394875;;;none;none
+Section 11;derived_for_text;class 10.04 condition of Art. 237b(1) PPA not met;978;;;none;none
+Section 11;derived_for_text;assessed contracts for classes 1.01 and 1.02;1027;;;none;none
+Section 11;derived_for_text;Indicator 1 missing or late among contracts with a linked action before expenditure, share of contracts;0.80292;;;none;none
+Section 11;derived_for_text;Indicator 1 missing or late among contracts with a linked action before expenditure, share of the contracted value;0.826895;;;none;none
+Section 11;derived_for_text;share of schools in the Varna region;0.285714;;;none;none
+Section 11;derived_for_text;contracts with a linked action before expenditure and without a checklist;10;;;none;none
+Section 11;derived_for_text;same, without timely documented control before commitment;8;;;none;none
+Section 11;derived_for_text;same, EUR excl VAT;168136.67;;;none;none
+Section 11;derived_for_text;checklist before expenditure without timely control before commitment, share of contracts with a checklist;0.80303;;;none;none
+Section 11;derived_for_text;checklist before expenditure without timely control before commitment, share of the contracted value;0.826525;;;none;none
+Section 11;derived_for_text;classes 1.01 to 10.04, highest share caught among contracts to which a class applies;0.041096;;;none;none
+Section 11;derived_for_text;classes 1.01 to 10.04, combinations of class and moment with a recorded result;9;;;none;none
+Section 11;derived_for_text;classes 1.01 to 10.04, lowest share without record;0.762918;;;none;none
+Section 11;derived_for_text;classes 1.01 to 10.04, highest share without record;1.0;;;none;none
+Section 11;derived_for_text;signals, lowest share without record;0.714286;;;none;none
+Section 11;derived_for_text;signals, highest share without record;1.0;;;none;none
+Section 11;derived_for_text;rule of Section 1, contracts caught, class 1.01;0;;;none;none
+Section 11;derived_for_text;rule of Section 1, contracts caught, class 1.02;0;;;none;none
+Section 11;derived_for_text;rule of Section 1, contracts caught, highest among the four signals;0;;;none;none
+Section 11;derived_for_text;table rows in T11_conclusions.csv;58;;;none;none
+Section 11;H3;H3 decision under the main rule and every recorded specification;confirmed;;;none;True
